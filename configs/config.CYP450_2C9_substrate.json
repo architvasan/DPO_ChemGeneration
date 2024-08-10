@@ -1,0 +1,14 @@
+{
+    "data": "./data/admet_labelled_data/CYP450_2C9_substrate/data.csv",
+    "smiles_col": "SMILES",
+    "label_col": "label",
+    "pos_label": 0,
+    "neg_label": 1,
+    "scaffolds_sampling": "data/rtcb_scaffolds.smi",
+    "batch_sample": 16,
+    "out_dir": "out/",
+    "out_pattern": "CYP450_2C9_substrate",
+    "evaluator_checkpoint": "/lus/gila/projects/candle_aesp_CNDA/avasan/RL_Workflows/RL_DPO/pref-opt-for-mols/MolFormer_Class/CYP450_2C9_substrate/model_weights.pt",
+    "loop_number": 5,
+    "goal_ratio": 0.8,
+    "device": 4}

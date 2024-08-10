@@ -1,0 +1,14 @@
+{
+    "data": "./data/admet_labelled_data/Caco-2_permeability/data.csv",
+    "smiles_col": "SMILES",
+    "label_col": "label",
+    "pos_label": 1,
+    "neg_label": 0,
+    "scaffolds_sampling": "data/rtcb_scaffolds.smi",
+    "batch_sample": 16,
+    "out_dir": "out/",
+    "out_pattern": "Caco-2_permeability",
+    "evaluator_checkpoint": "/lus/gila/projects/candle_aesp_CNDA/avasan/RL_Workflows/RL_DPO/pref-opt-for-mols/MolFormer_Class/Caco-2_permeability/model_weights.pt",
+    "loop_number": 5,
+    "goal_ratio": 0.8,
+    "device": 1}
