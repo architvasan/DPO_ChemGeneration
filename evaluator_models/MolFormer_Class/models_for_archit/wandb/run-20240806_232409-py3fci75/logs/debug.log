@@ -1,0 +1,28 @@
+2024-08-06 23:24:09,536 INFO    MainThread:346850 [wandb_setup.py:_flush():76] Configure stats pid to 346850
+2024-08-06 23:24:09,536 INFO    MainThread:346850 [wandb_setup.py:_flush():76] Loading settings from /home/lvairusanl/.config/wandb/settings
+2024-08-06 23:24:09,536 INFO    MainThread:346850 [wandb_setup.py:_flush():76] Loading settings from /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/settings
+2024-08-06 23:24:09,536 INFO    MainThread:346850 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-08-06 23:24:09,537 INFO    MainThread:346850 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-08-06 23:24:09,537 INFO    MainThread:346850 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'ModelTraining/models_for_archit/run_script_b_single.py', 'program': '/lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/run_script_b_single.py'}
+2024-08-06 23:24:09,537 INFO    MainThread:346850 [wandb_init.py:_log_setup():506] Logging user logs to /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-py3fci75/logs/debug.log
+2024-08-06 23:24:09,537 INFO    MainThread:346850 [wandb_init.py:_log_setup():507] Logging internal logs to /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-py3fci75/logs/debug-internal.log
+2024-08-06 23:24:09,537 INFO    MainThread:346850 [wandb_init.py:init():546] calling init triggers
+2024-08-06 23:24:09,537 INFO    MainThread:346850 [wandb_init.py:init():552] wandb.init called with sweep_config: {}
+config: {'init_project': 'TOXRIC', 'init_group': 'cardio10', 'init_notes': 'cardiotoxicity IC50=10 cutoff', 'dataset': 'data/cardio.csv', 'seed_idx': 0, 'epochs': 20, 'batch_size': 128, 'lr': 0.0001, 'testprop': 0.2, 'input_size': 768, 'emb_size': 512, 'output_size': 1, 'actfxn': 'relu', 'linear_type': 'ortho', 'smilescol': 'SMILES', 'labelcol': 'tox10'}
+2024-08-06 23:24:09,537 INFO    MainThread:346850 [wandb_init.py:init():602] starting backend
+2024-08-06 23:24:09,537 INFO    MainThread:346850 [wandb_init.py:init():606] setting up manager
+2024-08-06 23:24:09,542 INFO    MainThread:346850 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-08-06 23:24:09,583 INFO    MainThread:346850 [wandb_init.py:init():613] backend started and connected
+2024-08-06 23:24:09,585 INFO    MainThread:346850 [wandb_init.py:init():701] updated telemetry
+2024-08-06 23:24:09,686 INFO    MainThread:346850 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2024-08-06 23:24:10,035 INFO    MainThread:346850 [wandb_run.py:_on_init():2131] communicating current version
+2024-08-06 23:24:10,106 INFO    MainThread:346850 [wandb_run.py:_on_init():2140] got version response upgrade_message: "wandb version 0.17.5 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-08-06 23:24:10,106 INFO    MainThread:346850 [wandb_init.py:init():789] starting run threads in backend
+2024-08-06 23:24:26,230 INFO    MainThread:346850 [wandb_run.py:_console_start():2112] atexit reg
+2024-08-06 23:24:26,230 INFO    MainThread:346850 [wandb_run.py:_redirect():1967] redirect: 3
+2024-08-06 23:24:26,230 INFO    MainThread:346850 [wandb_run.py:_redirect():2032] Wrapping output streams.
+2024-08-06 23:24:26,230 INFO    MainThread:346850 [wandb_run.py:_redirect():2057] Redirects installed.
+2024-08-06 23:24:26,231 INFO    MainThread:346850 [wandb_init.py:init():831] run started, returning control to user process
+2024-08-06 23:25:09,058 INFO    MainThread:346850 [wandb_watch.py:watch():51] Watching
+2024-08-06 23:27:19,003 WARNING MsgRouterThr:346850 [router.py:message_loop():77] message_loop has been closed

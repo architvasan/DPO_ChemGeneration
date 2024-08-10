@@ -1,0 +1,397 @@
+/homes/avasan/miniforge3_new/envs/sst_llama/lib/python3.10/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/homes/avasan/miniforge3_new/envs/sst_llama/lib/python3.10/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+embeddings MolformerEmbeddings(
+  (word_embeddings): Embedding(2362, 768, padding_idx=2)
+  (dropout): Dropout(p=0.2, inplace=False)
+)
+encoder MolformerEncoder(
+  (layer): ModuleList(
+    (0-11): 12 x MolformerLayer(
+      (attention): MolformerAttention(
+        (self): MolformerSelfAttention(
+          (query): Linear(in_features=768, out_features=768, bias=True)
+          (key): Linear(in_features=768, out_features=768, bias=True)
+          (value): Linear(in_features=768, out_features=768, bias=True)
+          (rotary_embeddings): MolformerRotaryEmbedding()
+          (feature_map): MolformerFeatureMap(
+            (kernel): ReLU()
+          )
+        )
+        (output): MolformerSelfOutput(
+          (dense): Linear(in_features=768, out_features=768, bias=True)
+          (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+      (intermediate): MolformerIntermediate(
+        (dense): Linear(in_features=768, out_features=768, bias=True)
+        (intermediate_act_fn): GELUActivation()
+      )
+      (output): MolformerOutput(
+        (dense): Linear(in_features=768, out_features=768, bias=True)
+        (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+    )
+  )
+)
+LayerNorm LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+  0%|          | 0/99 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 99/99 [00:10<00:00,  9.89it/s]
+  0%|          | 0/99 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 99/99 [00:09<00:00,  9.97it/s]
+  0%|          | 0/99 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 99/99 [00:10<00:00,  9.25it/s]
+  0%|          | 0/99 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+100%|██████████| 99/99 [00:09<00:00, 10.10it/s]
+  0%|          | 0/99 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 99/99 [00:10<00:00,  9.65it/s]
+  0%|          | 0/99 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 99/99 [00:09<00:00, 10.04it/s]
+  0%|          | 0/99 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 99/99 [00:09<00:00, 10.03it/s]
+  0%|          | 0/99 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 99/99 [00:09<00:00,  9.98it/s]
+  0%|          | 0/99 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 99/99 [00:09<00:00,  9.91it/s]
+  0%|          | 0/99 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 99/99 [00:10<00:00,  9.49it/s]
+  0%|          | 0/99 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 99/99 [00:09<00:00,  9.99it/s]
+  0%|          | 0/99 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 99/99 [00:09<00:00,  9.97it/s]
+  0%|          | 0/99 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 99/99 [00:09<00:00,  9.96it/s]
+  0%|          | 0/99 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 99/99 [00:09<00:00, 10.01it/s]
+  0%|          | 0/99 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 99/99 [00:10<00:00,  9.49it/s]
+  0%|          | 0/99 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 99/99 [00:09<00:00,  9.94it/s]
+  0%|          | 0/99 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 99/99 [00:10<00:00,  9.84it/s]
+  0%|          | 0/99 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 99/99 [00:09<00:00,  9.98it/s]
+  0%|          | 0/99 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 99/99 [00:09<00:00, 10.07it/s]
+  0%|          | 0/99 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 99/99 [00:10<00:00,  9.83it/s]
+  0%|          | 0/99 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 99/99 [00:09<00:00, 10.06it/s]
+  0%|          | 0/99 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+
+100%|██████████| 99/99 [00:10<00:00,  9.30it/s]
+  0%|          | 0/99 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 99/99 [00:10<00:00,  9.82it/s]
+  0%|          | 0/99 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 99/99 [00:09<00:00, 10.03it/s]
+  0%|          | 0/99 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 99/99 [00:09<00:00, 10.08it/s]
+  0%|          | 0/99 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 99/99 [00:09<00:00,  9.92it/s]
+  0%|          | 0/99 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 99/99 [00:09<00:00, 10.04it/s]
+  0%|          | 0/99 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 99/99 [00:09<00:00, 10.08it/s]
+  0%|          | 0/99 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 99/99 [00:09<00:00, 10.04it/s]
+  0%|          | 0/99 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 99/99 [00:09<00:00, 10.05it/s]
+  0%|          | 0/99 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 99/99 [00:09<00:00, 10.09it/s]
+  0%|          | 0/99 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 99/99 [00:10<00:00,  9.36it/s]
+  0%|          | 0/99 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+ 34%|███▍      | 34/99 [00:03<00:07,  8.65it/s]
+ 52%|█████▏    | 51/99 [00:05<00:04,  9.70it/s]
+ 73%|███████▎  | 72/99 [00:07<00:02, 10.00it/s]
+ 93%|█████████▎| 92/99 [00:09<00:00, 10.04it/s]
+100%|██████████| 99/99 [00:10<00:00,  9.72it/s]
+  8%|▊         | 8/99 [00:00<00:09, 10.06it/s]]
+ 24%|██▍       | 24/99 [00:02<00:07, 10.00it/s]
+ 42%|████▏     | 42/99 [00:04<00:06,  8.47it/s]
+ 62%|██████▏   | 61/99 [00:06<00:03, 10.09it/s]
+ 82%|████████▏ | 81/99 [00:08<00:01, 10.06it/s]
+100%|██████████| 99/99 [00:10<00:00,  9.74it/s]
+ 18%|█▊        | 18/99 [00:01<00:08, 10.08it/s]
+ 38%|███▊      | 38/99 [00:03<00:06, 10.06it/s]
+ 60%|█████▉    | 59/99 [00:05<00:04,  9.96it/s]
+ 79%|███████▉  | 78/99 [00:07<00:02, 10.08it/s]
+100%|██████████| 99/99 [00:09<00:00, 10.08it/s]
+ 17%|█▋        | 17/99 [00:01<00:08, 10.07it/s]
+ 37%|███▋      | 37/99 [00:03<00:06,  9.72it/s]
+ 57%|█████▋    | 56/99 [00:05<00:04,  9.90it/s]
+ 77%|███████▋  | 76/99 [00:07<00:02, 10.11it/s]
+ 97%|█████████▋| 96/99 [00:09<00:00,  9.88it/s]
+100%|██████████| 99/99 [00:09<00:00,  9.94it/s]
+ 13%|█▎        | 13/99 [00:01<00:08, 10.06it/s]
+ 33%|███▎      | 33/99 [00:03<00:06, 10.07it/s]
+ 54%|█████▎    | 53/99 [00:05<00:04, 10.00it/s]
+ 74%|███████▎  | 73/99 [00:07<00:02,  9.86it/s]
+ 94%|█████████▍| 93/99 [00:09<00:00, 10.08it/s]
+100%|██████████| 99/99 [00:09<00:00, 10.02it/s]
+ 10%|█         | 10/99 [00:00<00:08, 10.06it/s]
+ 27%|██▋       | 27/99 [00:02<00:08,  8.55it/s]
+ 46%|████▋     | 46/99 [00:04<00:05, 10.00it/s]
+ 67%|██████▋   | 66/99 [00:06<00:03, 10.14it/s]
+ 89%|████████▉ | 88/99 [00:09<00:01, 10.13it/s]
+100%|██████████| 99/99 [00:10<00:00,  9.76it/s]
+  4%|▍         | 4/99 [00:00<00:09, 10.11it/s]]
+ 22%|██▏       | 22/99 [00:02<00:07, 10.10it/s]
+ 44%|████▍     | 44/99 [00:04<00:05,  9.99it/s]
+ 67%|██████▋   | 66/99 [00:06<00:03, 10.13it/s]
+ 87%|████████▋ | 86/99 [00:08<00:01,  9.87it/s]
+100%|██████████| 99/99 [00:09<00:00, 10.07it/s]
+  0%|          | 0/99 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+ 22%|██▏       | 22/99 [00:02<00:07, 10.12it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+ 42%|████▏     | 42/99 [00:04<00:05,  9.99it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+ 64%|██████▎   | 63/99 [00:06<00:03,  9.97it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+ 84%|████████▍ | 83/99 [00:08<00:01,  9.86it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+100%|██████████| 99/99 [00:09<00:00, 10.07it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  0%|          | 0/99 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+ 20%|██        | 20/99 [00:01<00:07, 10.09it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+ 40%|████      | 40/99 [00:04<00:06,  9.08it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+ 62%|██████▏   | 61/99 [00:06<00:03, 10.09it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+ 82%|████████▏ | 81/99 [00:08<00:01, 10.04it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+100%|██████████| 99/99 [00:09<00:00, 10.03it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  0%|          | 0/99 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+ 38%|███▊      | 38/99 [00:03<00:06, 10.08it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+ 59%|█████▊    | 58/99 [00:05<00:04,  9.97it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+ 79%|███████▉  | 78/99 [00:07<00:02, 10.04it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+100%|██████████| 99/99 [00:09<00:00, 10.03it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  0%|          | 0/99 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+ 35%|███▌      | 35/99 [00:03<00:06, 10.04it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+ 57%|█████▋    | 56/99 [00:05<00:04, 10.02it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+ 77%|███████▋  | 76/99 [00:07<00:02,  9.99it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+ 97%|█████████▋| 96/99 [00:09<00:00, 10.00it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+100%|██████████| 99/99 [00:09<00:00, 10.01it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  0%|          | 0/99 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+ 33%|███▎      | 33/99 [00:03<00:07,  9.40it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+ 51%|█████     | 50/99 [00:05<00:04,  9.80it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+ 71%|███████   | 70/99 [00:07<00:02,  9.94it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+ 93%|█████████▎| 92/99 [00:09<00:00, 10.04it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+100%|██████████| 99/99 [00:10<00:00,  9.84it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  0%|          | 0/99 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+ 28%|██▊       | 28/99 [00:02<00:07,  9.80it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+ 48%|████▊     | 48/99 [00:04<00:05,  9.78it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+ 68%|██████▊   | 67/99 [00:06<00:03, 10.03it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+ 88%|████████▊ | 87/99 [00:08<00:01,  9.98it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+100%|██████████| 99/99 [00:09<00:00,  9.96it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  0%|          | 0/99 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+ 25%|██▌       | 25/99 [00:02<00:07, 10.06it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+ 45%|████▌     | 45/99 [00:04<00:05,  9.93it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+ 66%|██████▌   | 65/99 [00:06<00:03,  8.96it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+ 83%|████████▎ | 82/99 [00:08<00:01,  8.83it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+100%|██████████| 99/99 [00:10<00:00,  9.66it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  0%|          | 0/99 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+ 38%|███▊      | 38/99 [00:03<00:06, 10.01it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+ 60%|█████▉    | 59/99 [00:05<00:03, 10.09it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+ 80%|███████▉  | 79/99 [00:07<00:01, 10.11it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+100%|██████████| 99/99 [00:09<00:00, 10.07it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  0%|          | 0/99 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+ 36%|███▋      | 36/99 [00:03<00:06,  9.96it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+ 58%|█████▊    | 57/99 [00:05<00:04, 10.08it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+ 78%|███████▊  | 77/99 [00:07<00:02, 10.12it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+ 97%|█████████▋| 96/99 [00:09<00:00,  8.92it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+100%|██████████| 99/99 [00:09<00:00,  9.92it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  0%|          | 0/99 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+ 31%|███▏      | 31/99 [00:03<00:06,  9.96it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+ 51%|█████     | 50/99 [00:04<00:04, 10.00it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+ 71%|███████   | 70/99 [00:06<00:02, 10.03it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+ 91%|█████████ | 90/99 [00:08<00:00, 10.07it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+100%|██████████| 99/99 [00:09<00:00, 10.05it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+100%|██████████| 99/99 [00:09<00:00, 10.05it/s]da_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/CYP450_3A4_substrate/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).

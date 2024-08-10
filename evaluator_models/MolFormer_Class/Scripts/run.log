@@ -1,0 +1,36 @@
+embeddings MolformerEmbeddings(
+  (word_embeddings): Embedding(2362, 768, padding_idx=2)
+  (dropout): Dropout(p=0.2, inplace=False)
+)
+encoder MolformerEncoder(
+  (layer): ModuleList(
+    (0-11): 12 x MolformerLayer(
+      (attention): MolformerAttention(
+        (self): MolformerSelfAttention(
+          (query): Linear(in_features=768, out_features=768, bias=True)
+          (key): Linear(in_features=768, out_features=768, bias=True)
+          (value): Linear(in_features=768, out_features=768, bias=True)
+          (rotary_embeddings): MolformerRotaryEmbedding()
+          (feature_map): MolformerFeatureMap(
+            (kernel): ReLU()
+          )
+        )
+        (output): MolformerSelfOutput(
+          (dense): Linear(in_features=768, out_features=768, bias=True)
+          (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+      (intermediate): MolformerIntermediate(
+        (dense): Linear(in_features=768, out_features=768, bias=True)
+        (intermediate_act_fn): GELUActivation()
+      )
+      (output): MolformerOutput(
+        (dense): Linear(in_features=768, out_features=768, bias=True)
+        (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+    )
+  )
+)
+LayerNorm LayerNorm((768,), eps=1e-12, elementwise_affine=True)

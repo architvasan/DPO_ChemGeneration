@@ -1,0 +1,19 @@
+init_project: "TOXRIC"
+init_group: "resp"
+init_notes: "respiratory toxicity"
+dataset: "data/resp.csv"
+seed_idx: 0
+epochs: 20
+batch_size: 128
+lr: 0.0001
+testprop: 0.2
+input_size: 768
+emb_size: 1024
+output_size: 1
+actfxn: "relu"
+linear_type: "xavier"
+smilescol: "SMILES"
+labelcol: "Tox"
+# should get best f1 = 0.8606
+# link to sweep: https://wandb.ai/lvairusorg/Toxric/sweeps/giyzktu3/workspace
+# link to best run: https://wandb.ai/lvairusorg/Toxric/runs/cdf7j3hr 

@@ -1,0 +1,1 @@
+{"num_of_examples": 1440, "train_loss": 0.3429627776145935, "_timestamp": 1716347918.4666765, "_runtime": 21.921324491500854, "_step": 20, "num_of_test_examples": 0, "test_loss": 0.006818366050720215, "epoch": 0, "val-auc": 0.6763363754889178, "_wandb": {"runtime": 21}}

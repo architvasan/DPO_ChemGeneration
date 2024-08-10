@@ -1,0 +1,301 @@
+/homes/avasan/miniforge3_new/envs/sst_llama/lib/python3.10/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/homes/avasan/miniforge3_new/envs/sst_llama/lib/python3.10/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+embeddings MolformerEmbeddings(
+  (word_embeddings): Embedding(2362, 768, padding_idx=2)
+  (dropout): Dropout(p=0.2, inplace=False)
+)
+encoder MolformerEncoder(
+  (layer): ModuleList(
+    (0-11): 12 x MolformerLayer(
+      (attention): MolformerAttention(
+        (self): MolformerSelfAttention(
+          (query): Linear(in_features=768, out_features=768, bias=True)
+          (key): Linear(in_features=768, out_features=768, bias=True)
+          (value): Linear(in_features=768, out_features=768, bias=True)
+          (rotary_embeddings): MolformerRotaryEmbedding()
+          (feature_map): MolformerFeatureMap(
+            (kernel): ReLU()
+          )
+        )
+        (output): MolformerSelfOutput(
+          (dense): Linear(in_features=768, out_features=768, bias=True)
+          (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+      (intermediate): MolformerIntermediate(
+        (dense): Linear(in_features=768, out_features=768, bias=True)
+        (intermediate_act_fn): GELUActivation()
+      )
+      (output): MolformerOutput(
+        (dense): Linear(in_features=768, out_features=768, bias=True)
+        (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+    )
+  )
+)
+LayerNorm LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+  0%|          | 0/92 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/P-glycoprotein_inhibitor/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 92/92 [00:09<00:00,  9.47it/s]
+  0%|          | 0/92 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/P-glycoprotein_inhibitor/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 92/92 [00:09<00:00,  9.60it/s]
+  0%|          | 0/92 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/P-glycoprotein_inhibitor/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+100%|██████████| 92/92 [00:09<00:00, 10.15it/s]
+  0%|          | 0/92 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/P-glycoprotein_inhibitor/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 92/92 [00:09<00:00, 10.06it/s]
+  0%|          | 0/92 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/P-glycoprotein_inhibitor/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 92/92 [00:09<00:00,  9.96it/s]
+  0%|          | 0/92 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/P-glycoprotein_inhibitor/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+100%|██████████| 92/92 [00:09<00:00,  9.79it/s]
+  0%|          | 0/92 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/P-glycoprotein_inhibitor/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+100%|██████████| 92/92 [00:09<00:00,  9.98it/s]
+  0%|          | 0/92 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/P-glycoprotein_inhibitor/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 92/92 [00:09<00:00, 10.07it/s]
+  0%|          | 0/92 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/P-glycoprotein_inhibitor/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 92/92 [00:09<00:00, 10.06it/s]
+  0%|          | 0/92 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/P-glycoprotein_inhibitor/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+100%|██████████| 92/92 [00:09<00:00,  9.65it/s]
+  0%|          | 0/92 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/P-glycoprotein_inhibitor/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+100%|██████████| 92/92 [00:09<00:00,  9.52it/s]
+  0%|          | 0/92 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/P-glycoprotein_inhibitor/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+100%|██████████| 92/92 [00:09<00:00, 10.04it/s]
+  0%|          | 0/92 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/P-glycoprotein_inhibitor/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 92/92 [00:09<00:00, 10.10it/s]
+  0%|          | 0/92 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/P-glycoprotein_inhibitor/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+100%|██████████| 92/92 [00:09<00:00, 10.09it/s]
+  0%|          | 0/92 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/P-glycoprotein_inhibitor/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+100%|██████████| 92/92 [00:09<00:00, 10.05it/s]
+  0%|          | 0/92 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/P-glycoprotein_inhibitor/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 92/92 [00:09<00:00, 10.06it/s]
+  0%|          | 0/92 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/P-glycoprotein_inhibitor/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+100%|██████████| 92/92 [00:09<00:00, 10.11it/s]
+  0%|          | 0/92 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/P-glycoprotein_inhibitor/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 92/92 [00:09<00:00,  9.29it/s]
+  0%|          | 0/92 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/P-glycoprotein_inhibitor/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 92/92 [00:09<00:00,  9.38it/s]
+  0%|          | 0/92 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/P-glycoprotein_inhibitor/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+100%|██████████| 92/92 [00:09<00:00,  9.79it/s]
+  0%|          | 0/92 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/P-glycoprotein_inhibitor/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+100%|██████████| 92/92 [00:09<00:00,  9.90it/s]
+  0%|          | 0/92 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/P-glycoprotein_inhibitor/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 92/92 [00:09<00:00, 10.06it/s]
+  0%|          | 0/92 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/P-glycoprotein_inhibitor/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+100%|██████████| 92/92 [00:09<00:00,  9.97it/s]
+  0%|          | 0/92 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/P-glycoprotein_inhibitor/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+100%|██████████| 92/92 [00:09<00:00, 10.10it/s]
+  0%|          | 0/92 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/P-glycoprotein_inhibitor/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 92/92 [00:09<00:00, 10.06it/s]
+  0%|          | 0/92 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/P-glycoprotein_inhibitor/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 92/92 [00:09<00:00,  9.29it/s]
+  0%|          | 0/92 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/P-glycoprotein_inhibitor/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 92/92 [00:09<00:00, 10.10it/s]
+  0%|          | 0/92 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/P-glycoprotein_inhibitor/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+100%|██████████| 92/92 [00:09<00:00, 10.08it/s]
+  0%|          | 0/92 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/P-glycoprotein_inhibitor/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 92/92 [00:09<00:00, 10.13it/s]
+  0%|          | 0/92 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/P-glycoprotein_inhibitor/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 92/92 [00:09<00:00,  9.95it/s]
+  0%|          | 0/92 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/P-glycoprotein_inhibitor/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+100%|██████████| 92/92 [00:09<00:00,  9.94it/s]
+  0%|          | 0/92 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/P-glycoprotein_inhibitor/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+
+
+
+
+
+100%|██████████| 92/92 [00:09<00:00, 10.06it/s]
+  0%|          | 0/92 [00:00<?, ?it/s]/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/P-glycoprotein_inhibitor/data_utils.py:28: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  "y_regression_values": torch.tensor(self.y_regression_values[idx]).to(self.device),
+ 26%|██▌       | 24/92 [00:02<00:08,  8.48it/s]
+ 45%|████▍     | 41/92 [00:04<00:06,  8.47it/s]
+ 63%|██████▎   | 58/92 [00:06<00:03,  8.53it/s]
+ 85%|████████▍ | 78/92 [00:08<00:01,  9.98it/s]
+100%|██████████| 92/92 [00:10<00:00,  9.12it/s]
+  4%|▍         | 4/92 [00:00<00:08, 10.06it/s]]
+ 26%|██▌       | 24/92 [00:02<00:07,  9.49it/s]
+ 47%|████▋     | 43/92 [00:04<00:04, 10.00it/s]
+ 68%|██████▊   | 63/92 [00:06<00:02, 10.03it/s]
+ 91%|█████████▏| 84/92 [00:08<00:00,  9.97it/s]
+100%|██████████| 92/92 [00:09<00:00, 10.02it/s]
+ 12%|█▏        | 11/92 [00:01<00:08,  9.97it/s]
+ 34%|███▎      | 31/92 [00:03<00:06, 10.10it/s]
+ 55%|█████▌    | 51/92 [00:05<00:04, 10.09it/s]
+ 75%|███████▌  | 69/92 [00:07<00:02,  8.97it/s]
+ 98%|█████████▊| 90/92 [00:09<00:00,  9.98it/s]
+100%|██████████| 92/92 [00:09<00:00,  9.94it/s]
+100%|██████████| 92/92 [00:09<00:00,  9.94it/s]

@@ -1,0 +1,197 @@
+2024-05-21 16:37:48,602 INFO    StreamThr :394209 [internal.py:wandb_internal():85] W&B internal server running at pid: 394209, started at: 2024-05-21 16:37:48.600318
+2024-05-21 16:37:48,607 DEBUG   HandlerThread:394209 [handler.py:handle_request():158] handle_request: status
+2024-05-21 16:37:48,607 INFO    WriterThread:394209 [datastore.py:open_for_write():87] open: /nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/wandb/run-20240521_163748-dod89c69/run-dod89c69.wandb
+2024-05-21 16:37:48,610 DEBUG   SenderThread:394209 [sender.py:send():378] send: header
+2024-05-21 16:37:48,621 DEBUG   SenderThread:394209 [sender.py:send():378] send: run
+2024-05-21 16:37:48,772 INFO    SenderThread:394209 [dir_watcher.py:__init__():211] watching files in: /nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/wandb/run-20240521_163748-dod89c69/files
+2024-05-21 16:37:48,772 INFO    SenderThread:394209 [sender.py:_start_run_threads():1123] run started: dod89c69 with start time 1716334668.601849
+2024-05-21 16:37:48,792 DEBUG   HandlerThread:394209 [handler.py:handle_request():158] handle_request: check_version
+2024-05-21 16:37:48,793 DEBUG   SenderThread:394209 [sender.py:send_request():405] send_request: check_version
+2024-05-21 16:37:48,859 DEBUG   HandlerThread:394209 [handler.py:handle_request():158] handle_request: run_start
+2024-05-21 16:37:48,878 DEBUG   HandlerThread:394209 [system_info.py:__init__():26] System info init
+2024-05-21 16:37:48,878 DEBUG   HandlerThread:394209 [system_info.py:__init__():41] System info init done
+2024-05-21 16:37:48,878 INFO    HandlerThread:394209 [system_monitor.py:start():194] Starting system monitor
+2024-05-21 16:37:48,878 INFO    SystemMonitor:394209 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-21 16:37:48,879 INFO    HandlerThread:394209 [system_monitor.py:probe():214] Collecting system info
+2024-05-21 16:37:48,879 INFO    SystemMonitor:394209 [interfaces.py:start():188] Started cpu monitoring
+2024-05-21 16:37:48,880 INFO    SystemMonitor:394209 [interfaces.py:start():188] Started disk monitoring
+2024-05-21 16:37:48,880 INFO    SystemMonitor:394209 [interfaces.py:start():188] Started gpu monitoring
+2024-05-21 16:37:48,881 INFO    SystemMonitor:394209 [interfaces.py:start():188] Started memory monitoring
+2024-05-21 16:37:48,881 INFO    SystemMonitor:394209 [interfaces.py:start():188] Started network monitoring
+2024-05-21 16:37:48,934 DEBUG   HandlerThread:394209 [system_info.py:probe():150] Probing system
+2024-05-21 16:37:48,936 DEBUG   HandlerThread:394209 [system_info.py:_probe_git():135] Probing git
+2024-05-21 16:37:48,952 DEBUG   HandlerThread:394209 [system_info.py:_probe_git():143] Probing git done
+2024-05-21 16:37:48,952 DEBUG   HandlerThread:394209 [system_info.py:probe():198] Probing system done
+2024-05-21 16:37:48,952 DEBUG   HandlerThread:394209 [system_monitor.py:probe():223] {'os': 'Linux-5.4.0-174-generic-x86_64-with-glibc2.31', 'python': '3.10.14', 'heartbeatAt': '2024-05-21T23:37:48.934901', 'startedAt': '2024-05-21T23:37:48.581805', 'docker': None, 'cuda': None, 'args': ('-d', '/lambda_stor/data/avasan/PharmacoData/data/admet_open_data/admet_labelled_data/P-glycoprotein_substrate/data.csv', '-s', 'SMILES', '-l', 'label', '-t', '0.2', '-E', '100'), 'state': 'running', 'program': '/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/run_script.py', 'codePathLocal': 'run_script.py', 'codePath': 'ModelTraining/MolFormer_Class/run_script.py', 'git': {'remote': 'https://github.com/architvasan/Pharmacokinetic_Modeling.git', 'commit': 'e249d6d63487dc4f5a0cdf798c7e0d608cacc896'}, 'email': None, 'root': '/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling', 'host': 'lambda0', 'username': 'avasan', 'executable': '/homes/avasan/miniforge3_new/envs/sst_llama/bin/python', 'cpu_count': 40, 'cpu_count_logical': 80, 'cpu_freq': {'current': 2827.5893249999986, 'min': 1000.0, 'max': 3700.0}, 'cpu_freq_per_core': [{'current': 3102.909, 'min': 1000.0, 'max': 3700.0}, {'current': 2386.56, 'min': 1000.0, 'max': 3700.0}, {'current': 2697.317, 'min': 1000.0, 'max': 3700.0}, {'current': 2244.761, 'min': 1000.0, 'max': 3700.0}, {'current': 2944.4, 'min': 1000.0, 'max': 3700.0}, {'current': 3159.788, 'min': 1000.0, 'max': 3700.0}, {'current': 2249.441, 'min': 1000.0, 'max': 3700.0}, {'current': 3159.785, 'min': 1000.0, 'max': 3700.0}, {'current': 2549.386, 'min': 1000.0, 'max': 3700.0}, {'current': 3151.867, 'min': 1000.0, 'max': 3700.0}, {'current': 2957.255, 'min': 1000.0, 'max': 3700.0}, {'current': 3214.054, 'min': 1000.0, 'max': 3700.0}, {'current': 3088.191, 'min': 1000.0, 'max': 3700.0}, {'current': 3159.259, 'min': 1000.0, 'max': 3700.0}, {'current': 2603.106, 'min': 1000.0, 'max': 3700.0}, {'current': 2252.445, 'min': 1000.0, 'max': 3700.0}, {'current': 2671.231, 'min': 1000.0, 'max': 3700.0}, {'current': 3172.155, 'min': 1000.0, 'max': 3700.0}, {'current': 3161.633, 'min': 1000.0, 'max': 3700.0}, {'current': 2493.803, 'min': 1000.0, 'max': 3700.0}, {'current': 2704.668, 'min': 1000.0, 'max': 3700.0}, {'current': 2679.28, 'min': 1000.0, 'max': 3700.0}, {'current': 3090.429, 'min': 1000.0, 'max': 3700.0}, {'current': 2680.083, 'min': 1000.0, 'max': 3700.0}, {'current': 2680.217, 'min': 1000.0, 'max': 3700.0}, {'current': 3180.524, 'min': 1000.0, 'max': 3700.0}, {'current': 3247.768, 'min': 1000.0, 'max': 3700.0}, {'current': 3090.377, 'min': 1000.0, 'max': 3700.0}, {'current': 3019.993, 'min': 1000.0, 'max': 3700.0}, {'current': 2241.03, 'min': 1000.0, 'max': 3700.0}, {'current': 2469.615, 'min': 1000.0, 'max': 3700.0}, {'current': 2947.374, 'min': 1000.0, 'max': 3700.0}, {'current': 2602.22, 'min': 1000.0, 'max': 3700.0}, {'current': 2547.572, 'min': 1000.0, 'max': 3700.0}, {'current': 2683.105, 'min': 1000.0, 'max': 3700.0}, {'current': 2290.589, 'min': 1000.0, 'max': 3700.0}, {'current': 2388.617, 'min': 1000.0, 'max': 3700.0}, {'current': 3183.22, 'min': 1000.0, 'max': 3700.0}, {'current': 3173.47, 'min': 1000.0, 'max': 3700.0}, {'current': 3180.626, 'min': 1000.0, 'max': 3700.0}, {'current': 3087.253, 'min': 1000.0, 'max': 3700.0}, {'current': 2684.308, 'min': 1000.0, 'max': 3700.0}, {'current': 2796.135, 'min': 1000.0, 'max': 3700.0}, {'current': 3001.296, 'min': 1000.0, 'max': 3700.0}, {'current': 3068.991, 'min': 1000.0, 'max': 3700.0}, {'current': 3099.959, 'min': 1000.0, 'max': 3700.0}, {'current': 2200.593, 'min': 1000.0, 'max': 3700.0}, {'current': 3100.381, 'min': 1000.0, 'max': 3700.0}, {'current': 2602.182, 'min': 1000.0, 'max': 3700.0}, {'current': 3123.686, 'min': 1000.0, 'max': 3700.0}, {'current': 2769.392, 'min': 1000.0, 'max': 3700.0}, {'current': 3225.837, 'min': 1000.0, 'max': 3700.0}, {'current': 3029.701, 'min': 1000.0, 'max': 3700.0}, {'current': 3100.263, 'min': 1000.0, 'max': 3700.0}, {'current': 2753.57, 'min': 1000.0, 'max': 3700.0}, {'current': 2267.928, 'min': 1000.0, 'max': 3700.0}, {'current': 3038.996, 'min': 1000.0, 'max': 3700.0}, {'current': 3116.609, 'min': 1000.0, 'max': 3700.0}, {'current': 3097.927, 'min': 1000.0, 'max': 3700.0}, {'current': 2343.426, 'min': 1000.0, 'max': 3700.0}, {'current': 2655.126, 'min': 1000.0, 'max': 3700.0}, {'current': 2657.414, 'min': 1000.0, 'max': 3700.0}, {'current': 2768.063, 'min': 1000.0, 'max': 3700.0}, {'current': 2599.787, 'min': 1000.0, 'max': 3700.0}, {'current': 2603.024, 'min': 1000.0, 'max': 3700.0}, {'current': 3102.363, 'min': 1000.0, 'max': 3700.0}, {'current': 3156.372, 'min': 1000.0, 'max': 3700.0}, {'current': 3102.607, 'min': 1000.0, 'max': 3700.0}, {'current': 3044.594, 'min': 1000.0, 'max': 3700.0}, {'current': 2200.107, 'min': 1000.0, 'max': 3700.0}, {'current': 2949.806, 'min': 1000.0, 'max': 3700.0}, {'current': 2992.778, 'min': 1000.0, 'max': 3700.0}, {'current': 2743.25, 'min': 1000.0, 'max': 3700.0}, {'current': 2555.27, 'min': 1000.0, 'max': 3700.0}, {'current': 2599.373, 'min': 1000.0, 'max': 3700.0}, {'current': 2200.364, 'min': 1000.0, 'max': 3700.0}, {'current': 2596.998, 'min': 1000.0, 'max': 3700.0}, {'current': 3105.786, 'min': 1000.0, 'max': 3700.0}, {'current': 2853.029, 'min': 1000.0, 'max': 3700.0}, {'current': 3124.525, 'min': 1000.0, 'max': 3700.0}], 'disk': {'/': {'total': 1758.8579597473145, 'used': 661.4817771911621}}, 'gpu': 'Tesla V100-SXM2-32GB', 'gpu_count': 8, 'gpu_devices': [{'name': 'Tesla V100-SXM2-32GB', 'memory_total': 34359738368}, {'name': 'Tesla V100-SXM2-32GB', 'memory_total': 34359738368}, {'name': 'Tesla V100-SXM2-32GB', 'memory_total': 34359738368}, {'name': 'Tesla V100-SXM2-32GB', 'memory_total': 34359738368}, {'name': 'Tesla V100-SXM2-32GB', 'memory_total': 34359738368}, {'name': 'Tesla V100-SXM2-32GB', 'memory_total': 34359738368}, {'name': 'Tesla V100-SXM2-32GB', 'memory_total': 34359738368}, {'name': 'Tesla V100-SXM2-32GB', 'memory_total': 34359738368}], 'memory': {'total': 503.5380401611328}}
+2024-05-21 16:37:48,953 INFO    HandlerThread:394209 [system_monitor.py:probe():224] Finished collecting system info
+2024-05-21 16:37:48,953 INFO    HandlerThread:394209 [system_monitor.py:probe():227] Publishing system info
+2024-05-21 16:37:48,953 DEBUG   HandlerThread:394209 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-05-21 16:37:49,774 INFO    Thread-12 :394209 [dir_watcher.py:_on_file_created():271] file/dir created: /nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/wandb/run-20240521_163748-dod89c69/files/conda-environment.yaml
+2024-05-21 16:37:55,746 DEBUG   HandlerThread:394209 [system_info.py:_save_conda():222] Saving conda packages done
+2024-05-21 16:37:55,754 INFO    HandlerThread:394209 [system_monitor.py:probe():229] Finished publishing system info
+2024-05-21 16:37:55,768 DEBUG   HandlerThread:394209 [handler.py:handle_request():158] handle_request: status_report
+2024-05-21 16:37:55,768 DEBUG   HandlerThread:394209 [handler.py:handle_request():158] handle_request: keepalive
+2024-05-21 16:37:55,769 DEBUG   SenderThread:394209 [sender.py:send():378] send: files
+2024-05-21 16:37:55,769 INFO    SenderThread:394209 [sender.py:_save_file():1389] saving file wandb-metadata.json with policy now
+2024-05-21 16:37:55,778 INFO    Thread-12 :394209 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/wandb/run-20240521_163748-dod89c69/files/conda-environment.yaml
+2024-05-21 16:37:55,778 INFO    Thread-12 :394209 [dir_watcher.py:_on_file_created():271] file/dir created: /nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/wandb/run-20240521_163748-dod89c69/files/wandb-metadata.json
+2024-05-21 16:37:56,015 DEBUG   HandlerThread:394209 [handler.py:handle_request():158] handle_request: python_packages
+2024-05-21 16:37:56,016 DEBUG   SenderThread:394209 [sender.py:send_request():405] send_request: python_packages
+2024-05-21 16:37:56,016 DEBUG   HandlerThread:394209 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-21 16:37:56,018 INFO    wandb-upload_0:394209 [upload_job.py:push():130] Uploaded file /tmp/tmpedmw2_o1wandb/yd5rizv2-wandb-metadata.json
+2024-05-21 16:37:56,023 DEBUG   SenderThread:394209 [sender.py:send_request():405] send_request: stop_status
+2024-05-21 16:37:56,078 DEBUG   SenderThread:394209 [sender.py:send():378] send: telemetry
+2024-05-21 16:37:56,779 INFO    Thread-12 :394209 [dir_watcher.py:_on_file_created():271] file/dir created: /nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/wandb/run-20240521_163748-dod89c69/files/output.log
+2024-05-21 16:37:56,779 INFO    Thread-12 :394209 [dir_watcher.py:_on_file_created():271] file/dir created: /nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/wandb/run-20240521_163748-dod89c69/files/requirements.txt
+2024-05-21 16:37:57,944 DEBUG   SenderThread:394209 [sender.py:send():378] send: telemetry
+2024-05-21 16:37:58,694 DEBUG   SenderThread:394209 [sender.py:send():378] send: telemetry
+2024-05-21 16:37:58,781 INFO    Thread-12 :394209 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/wandb/run-20240521_163748-dod89c69/files/output.log
+2024-05-21 16:37:58,901 DEBUG   HandlerThread:394209 [handler.py:handle_request():158] handle_request: status_report
+2024-05-21 16:37:59,888 DEBUG   SenderThread:394209 [sender.py:send():378] send: exit
+2024-05-21 16:37:59,888 INFO    SenderThread:394209 [sender.py:send_exit():585] handling exit code: 1
+2024-05-21 16:37:59,888 INFO    SenderThread:394209 [sender.py:send_exit():587] handling runtime: 11
+2024-05-21 16:37:59,895 INFO    SenderThread:394209 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-21 16:37:59,896 INFO    SenderThread:394209 [sender.py:send_exit():593] send defer
+2024-05-21 16:37:59,896 DEBUG   HandlerThread:394209 [handler.py:handle_request():158] handle_request: defer
+2024-05-21 16:37:59,896 INFO    HandlerThread:394209 [handler.py:handle_request_defer():184] handle defer: 0
+2024-05-21 16:37:59,896 DEBUG   SenderThread:394209 [sender.py:send_request():405] send_request: defer
+2024-05-21 16:37:59,896 INFO    SenderThread:394209 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-05-21 16:37:59,897 INFO    SenderThread:394209 [sender.py:transition_state():613] send defer: 1
+2024-05-21 16:37:59,897 DEBUG   HandlerThread:394209 [handler.py:handle_request():158] handle_request: defer
+2024-05-21 16:37:59,897 INFO    HandlerThread:394209 [handler.py:handle_request_defer():184] handle defer: 1
+2024-05-21 16:37:59,897 DEBUG   SenderThread:394209 [sender.py:send_request():405] send_request: defer
+2024-05-21 16:37:59,897 INFO    SenderThread:394209 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-05-21 16:37:59,897 INFO    SenderThread:394209 [sender.py:transition_state():613] send defer: 2
+2024-05-21 16:37:59,897 DEBUG   HandlerThread:394209 [handler.py:handle_request():158] handle_request: defer
+2024-05-21 16:37:59,897 INFO    HandlerThread:394209 [handler.py:handle_request_defer():184] handle defer: 2
+2024-05-21 16:37:59,897 INFO    HandlerThread:394209 [system_monitor.py:finish():203] Stopping system monitor
+2024-05-21 16:37:59,897 DEBUG   SystemMonitor:394209 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-21 16:37:59,898 DEBUG   SystemMonitor:394209 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-05-21 16:37:59,898 INFO    HandlerThread:394209 [interfaces.py:finish():200] Joined cpu monitor
+2024-05-21 16:37:59,898 DEBUG   SystemMonitor:394209 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-05-21 16:37:59,898 INFO    HandlerThread:394209 [interfaces.py:finish():200] Joined disk monitor
+2024-05-21 16:38:00,784 INFO    Thread-12 :394209 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/wandb/run-20240521_163748-dod89c69/files/output.log
+2024-05-21 16:38:00,785 INFO    Thread-12 :394209 [dir_watcher.py:_on_file_created():271] file/dir created: /nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/wandb/run-20240521_163748-dod89c69/files/wandb-summary.json
+2024-05-21 16:38:02,419 INFO    HandlerThread:394209 [interfaces.py:finish():200] Joined gpu monitor
+2024-05-21 16:38:02,420 INFO    HandlerThread:394209 [interfaces.py:finish():200] Joined memory monitor
+2024-05-21 16:38:02,420 INFO    HandlerThread:394209 [interfaces.py:finish():200] Joined network monitor
+2024-05-21 16:38:02,420 DEBUG   HandlerThread:394209 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-21 16:38:02,421 DEBUG   SenderThread:394209 [sender.py:send_request():405] send_request: defer
+2024-05-21 16:38:02,421 INFO    SenderThread:394209 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-05-21 16:38:02,421 INFO    SenderThread:394209 [sender.py:transition_state():613] send defer: 3
+2024-05-21 16:38:02,422 DEBUG   SenderThread:394209 [sender.py:send():378] send: stats
+2024-05-21 16:38:02,422 DEBUG   HandlerThread:394209 [handler.py:handle_request():158] handle_request: defer
+2024-05-21 16:38:02,423 DEBUG   SenderThread:394209 [sender.py:send_request():405] send_request: poll_exit
+2024-05-21 16:38:02,423 INFO    HandlerThread:394209 [handler.py:handle_request_defer():184] handle defer: 3
+2024-05-21 16:38:02,424 DEBUG   SenderThread:394209 [sender.py:send_request():405] send_request: defer
+2024-05-21 16:38:02,424 INFO    SenderThread:394209 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-05-21 16:38:02,424 INFO    SenderThread:394209 [sender.py:transition_state():613] send defer: 4
+2024-05-21 16:38:02,424 DEBUG   HandlerThread:394209 [handler.py:handle_request():158] handle_request: defer
+2024-05-21 16:38:02,424 INFO    HandlerThread:394209 [handler.py:handle_request_defer():184] handle defer: 4
+2024-05-21 16:38:02,424 DEBUG   SenderThread:394209 [sender.py:send_request():405] send_request: defer
+2024-05-21 16:38:02,425 INFO    SenderThread:394209 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-05-21 16:38:02,425 INFO    SenderThread:394209 [sender.py:transition_state():613] send defer: 5
+2024-05-21 16:38:02,425 DEBUG   HandlerThread:394209 [handler.py:handle_request():158] handle_request: defer
+2024-05-21 16:38:02,425 INFO    HandlerThread:394209 [handler.py:handle_request_defer():184] handle defer: 5
+2024-05-21 16:38:02,425 DEBUG   SenderThread:394209 [sender.py:send():378] send: summary
+2024-05-21 16:38:02,432 INFO    SenderThread:394209 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-21 16:38:02,433 DEBUG   SenderThread:394209 [sender.py:send_request():405] send_request: defer
+2024-05-21 16:38:02,433 INFO    SenderThread:394209 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-05-21 16:38:02,433 INFO    SenderThread:394209 [sender.py:transition_state():613] send defer: 6
+2024-05-21 16:38:02,433 DEBUG   HandlerThread:394209 [handler.py:handle_request():158] handle_request: defer
+2024-05-21 16:38:02,433 INFO    HandlerThread:394209 [handler.py:handle_request_defer():184] handle defer: 6
+2024-05-21 16:38:02,434 DEBUG   SenderThread:394209 [sender.py:send_request():405] send_request: defer
+2024-05-21 16:38:02,434 INFO    SenderThread:394209 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-05-21 16:38:02,439 DEBUG   HandlerThread:394209 [handler.py:handle_request():158] handle_request: status_report
+2024-05-21 16:38:02,512 INFO    SenderThread:394209 [sender.py:transition_state():613] send defer: 7
+2024-05-21 16:38:02,512 DEBUG   HandlerThread:394209 [handler.py:handle_request():158] handle_request: defer
+2024-05-21 16:38:02,512 INFO    HandlerThread:394209 [handler.py:handle_request_defer():184] handle defer: 7
+2024-05-21 16:38:02,513 DEBUG   SenderThread:394209 [sender.py:send_request():405] send_request: defer
+2024-05-21 16:38:02,513 INFO    SenderThread:394209 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-05-21 16:38:02,789 INFO    Thread-12 :394209 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/wandb/run-20240521_163748-dod89c69/files/output.log
+2024-05-21 16:38:02,789 INFO    Thread-12 :394209 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/wandb/run-20240521_163748-dod89c69/files/wandb-summary.json
+2024-05-21 16:38:02,789 INFO    Thread-12 :394209 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/wandb/run-20240521_163748-dod89c69/files/config.yaml
+2024-05-21 16:38:02,890 DEBUG   HandlerThread:394209 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-21 16:38:04,638 INFO    SenderThread:394209 [sender.py:transition_state():613] send defer: 8
+2024-05-21 16:38:04,638 DEBUG   SenderThread:394209 [sender.py:send_request():405] send_request: poll_exit
+2024-05-21 16:38:04,638 DEBUG   HandlerThread:394209 [handler.py:handle_request():158] handle_request: defer
+2024-05-21 16:38:04,638 INFO    HandlerThread:394209 [handler.py:handle_request_defer():184] handle defer: 8
+2024-05-21 16:38:04,639 DEBUG   SenderThread:394209 [sender.py:send_request():405] send_request: defer
+2024-05-21 16:38:04,639 INFO    SenderThread:394209 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-05-21 16:38:04,639 INFO    SenderThread:394209 [job_builder.py:build():432] Attempting to build job artifact
+2024-05-21 16:38:04,640 INFO    SenderThread:394209 [job_builder.py:_get_source_type():565] is repo sourced job
+2024-05-21 16:38:04,680 INFO    SenderThread:394209 [job_builder.py:build():541] adding wandb-job metadata file
+2024-05-21 16:38:04,695 INFO    SenderThread:394209 [sender.py:transition_state():613] send defer: 9
+2024-05-21 16:38:04,696 DEBUG   HandlerThread:394209 [handler.py:handle_request():158] handle_request: defer
+2024-05-21 16:38:04,696 DEBUG   SenderThread:394209 [sender.py:send():378] send: artifact
+2024-05-21 16:38:04,696 INFO    HandlerThread:394209 [handler.py:handle_request_defer():184] handle defer: 9
+2024-05-21 16:38:04,790 INFO    Thread-12 :394209 [dir_watcher.py:_on_file_modified():288] file/dir modified: /nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/wandb/run-20240521_163748-dod89c69/files/output.log
+2024-05-21 16:38:04,882 INFO    SenderThread:394209 [sender.py:send_artifact():1467] sent artifact job-https___github.com_architvasan_Pharmacokinetic_Modeling.git_ModelTraining_MolFormer_Class_run_script.py - {'id': 'QXJ0aWZhY3Q6ODQ1Mzk0Mzcw', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE3NzczNjczMg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6ODQ1Mzk0Mzcw', 'versionIndex': 0}}}
+2024-05-21 16:38:04,882 DEBUG   SenderThread:394209 [sender.py:send_request():405] send_request: defer
+2024-05-21 16:38:04,882 INFO    SenderThread:394209 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-05-21 16:38:04,882 INFO    SenderThread:394209 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-05-21 16:38:04,891 DEBUG   HandlerThread:394209 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-21 16:38:05,792 INFO    SenderThread:394209 [dir_watcher.py:finish():388] scan: /nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/wandb/run-20240521_163748-dod89c69/files
+2024-05-21 16:38:05,792 INFO    SenderThread:394209 [dir_watcher.py:finish():402] scan save: /nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/wandb/run-20240521_163748-dod89c69/files/config.yaml config.yaml
+2024-05-21 16:38:05,793 INFO    SenderThread:394209 [dir_watcher.py:finish():402] scan save: /nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/wandb/run-20240521_163748-dod89c69/files/conda-environment.yaml conda-environment.yaml
+2024-05-21 16:38:05,793 INFO    SenderThread:394209 [dir_watcher.py:finish():402] scan save: /nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/wandb/run-20240521_163748-dod89c69/files/wandb-metadata.json wandb-metadata.json
+2024-05-21 16:38:05,795 INFO    SenderThread:394209 [dir_watcher.py:finish():402] scan save: /nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/wandb/run-20240521_163748-dod89c69/files/requirements.txt requirements.txt
+2024-05-21 16:38:05,798 INFO    SenderThread:394209 [dir_watcher.py:finish():402] scan save: /nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/wandb/run-20240521_163748-dod89c69/files/output.log output.log
+2024-05-21 16:38:05,801 INFO    SenderThread:394209 [dir_watcher.py:finish():402] scan save: /nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/wandb/run-20240521_163748-dod89c69/files/wandb-summary.json wandb-summary.json
+2024-05-21 16:38:05,805 INFO    SenderThread:394209 [sender.py:transition_state():613] send defer: 10
+2024-05-21 16:38:05,805 DEBUG   SenderThread:394209 [sender.py:send_request():405] send_request: poll_exit
+2024-05-21 16:38:05,806 DEBUG   HandlerThread:394209 [handler.py:handle_request():158] handle_request: defer
+2024-05-21 16:38:05,810 INFO    HandlerThread:394209 [handler.py:handle_request_defer():184] handle defer: 10
+2024-05-21 16:38:05,811 DEBUG   SenderThread:394209 [sender.py:send_request():405] send_request: defer
+2024-05-21 16:38:05,811 INFO    SenderThread:394209 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-05-21 16:38:05,811 INFO    SenderThread:394209 [file_pusher.py:finish():169] shutting down file pusher
+2024-05-21 16:38:05,892 DEBUG   HandlerThread:394209 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-21 16:38:05,893 DEBUG   SenderThread:394209 [sender.py:send_request():405] send_request: poll_exit
+2024-05-21 16:38:05,966 INFO    wandb-upload_0:394209 [upload_job.py:push():130] Uploaded file /nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/wandb/run-20240521_163748-dod89c69/files/config.yaml
+2024-05-21 16:38:06,040 INFO    wandb-upload_2:394209 [upload_job.py:push():130] Uploaded file /nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/wandb/run-20240521_163748-dod89c69/files/requirements.txt
+2024-05-21 16:38:06,040 INFO    wandb-upload_4:394209 [upload_job.py:push():130] Uploaded file /nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/wandb/run-20240521_163748-dod89c69/files/wandb-summary.json
+2024-05-21 16:38:06,042 INFO    wandb-upload_3:394209 [upload_job.py:push():130] Uploaded file /nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/wandb/run-20240521_163748-dod89c69/files/output.log
+2024-05-21 16:38:06,057 INFO    wandb-upload_1:394209 [upload_job.py:push():130] Uploaded file /nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/wandb/run-20240521_163748-dod89c69/files/conda-environment.yaml
+2024-05-21 16:38:06,258 INFO    Thread-11 (_thread_body):394209 [sender.py:transition_state():613] send defer: 11
+2024-05-21 16:38:06,258 DEBUG   HandlerThread:394209 [handler.py:handle_request():158] handle_request: defer
+2024-05-21 16:38:06,258 INFO    HandlerThread:394209 [handler.py:handle_request_defer():184] handle defer: 11
+2024-05-21 16:38:06,259 DEBUG   SenderThread:394209 [sender.py:send_request():405] send_request: defer
+2024-05-21 16:38:06,259 INFO    SenderThread:394209 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-05-21 16:38:06,259 INFO    SenderThread:394209 [file_pusher.py:join():175] waiting for file pusher
+2024-05-21 16:38:06,259 INFO    SenderThread:394209 [sender.py:transition_state():613] send defer: 12
+2024-05-21 16:38:06,259 DEBUG   HandlerThread:394209 [handler.py:handle_request():158] handle_request: defer
+2024-05-21 16:38:06,259 INFO    HandlerThread:394209 [handler.py:handle_request_defer():184] handle defer: 12
+2024-05-21 16:38:06,259 DEBUG   SenderThread:394209 [sender.py:send_request():405] send_request: defer
+2024-05-21 16:38:06,260 INFO    SenderThread:394209 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-05-21 16:38:06,260 INFO    SenderThread:394209 [file_stream.py:finish():601] file stream finish called
+2024-05-21 16:38:06,316 INFO    SenderThread:394209 [file_stream.py:finish():605] file stream finish is done
+2024-05-21 16:38:06,316 INFO    SenderThread:394209 [sender.py:transition_state():613] send defer: 13
+2024-05-21 16:38:06,317 DEBUG   HandlerThread:394209 [handler.py:handle_request():158] handle_request: defer
+2024-05-21 16:38:06,317 INFO    HandlerThread:394209 [handler.py:handle_request_defer():184] handle defer: 13
+2024-05-21 16:38:06,317 DEBUG   SenderThread:394209 [sender.py:send_request():405] send_request: defer
+2024-05-21 16:38:06,317 INFO    SenderThread:394209 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-05-21 16:38:06,317 INFO    SenderThread:394209 [sender.py:transition_state():613] send defer: 14
+2024-05-21 16:38:06,317 DEBUG   HandlerThread:394209 [handler.py:handle_request():158] handle_request: defer
+2024-05-21 16:38:06,317 DEBUG   SenderThread:394209 [sender.py:send():378] send: final
+2024-05-21 16:38:06,317 INFO    HandlerThread:394209 [handler.py:handle_request_defer():184] handle defer: 14
+2024-05-21 16:38:06,318 DEBUG   SenderThread:394209 [sender.py:send():378] send: footer
+2024-05-21 16:38:06,318 DEBUG   SenderThread:394209 [sender.py:send_request():405] send_request: defer
+2024-05-21 16:38:06,318 INFO    SenderThread:394209 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-05-21 16:38:06,318 DEBUG   HandlerThread:394209 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-21 16:38:06,319 DEBUG   SenderThread:394209 [sender.py:send_request():405] send_request: poll_exit
+2024-05-21 16:38:06,319 DEBUG   HandlerThread:394209 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-21 16:38:06,319 DEBUG   SenderThread:394209 [sender.py:send_request():405] send_request: poll_exit
+2024-05-21 16:38:06,320 DEBUG   HandlerThread:394209 [handler.py:handle_request():158] handle_request: server_info
+2024-05-21 16:38:06,320 DEBUG   SenderThread:394209 [sender.py:send_request():405] send_request: server_info
+2024-05-21 16:38:06,321 DEBUG   HandlerThread:394209 [handler.py:handle_request():158] handle_request: get_summary
+2024-05-21 16:38:06,322 DEBUG   HandlerThread:394209 [handler.py:handle_request():158] handle_request: sampled_history
+2024-05-21 16:38:06,322 DEBUG   HandlerThread:394209 [handler.py:handle_request():158] handle_request: internal_messages
+2024-05-21 16:38:06,349 INFO    MainThread:394209 [wandb_run.py:_footer_history_summary_info():3994] rendering history
+2024-05-21 16:38:06,349 INFO    MainThread:394209 [wandb_run.py:_footer_history_summary_info():4026] rendering summary
+2024-05-21 16:38:06,350 INFO    MainThread:394209 [wandb_run.py:_footer_sync_info():3953] logging synced files
+2024-05-21 16:38:06,350 DEBUG   HandlerThread:394209 [handler.py:handle_request():158] handle_request: shutdown
+2024-05-21 16:38:06,350 INFO    HandlerThread:394209 [handler.py:finish():882] shutting down handler
+2024-05-21 16:38:07,320 INFO    WriterThread:394209 [datastore.py:close():296] close: /nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/wandb/run-20240521_163748-dod89c69/run-dod89c69.wandb
+2024-05-21 16:38:07,349 INFO    SenderThread:394209 [sender.py:finish():1545] shutting down sender
+2024-05-21 16:38:07,349 INFO    SenderThread:394209 [file_pusher.py:finish():169] shutting down file pusher
+2024-05-21 16:38:07,349 INFO    SenderThread:394209 [file_pusher.py:join():175] waiting for file pusher

@@ -1,0 +1,86 @@
+wandb_version: 1
+
+init_project:
+  desc: null
+  value: TOXRIC
+init_group:
+  desc: null
+  value: cardio10
+init_notes:
+  desc: null
+  value: cardiotoxicity IC50=5 cutoff
+dataset:
+  desc: null
+  value: data/cardio.csv
+seed_idx:
+  desc: null
+  value: 0
+epochs:
+  desc: null
+  value: 20
+batch_size:
+  desc: null
+  value: 128
+lr:
+  desc: null
+  value: 0.0001
+testprop:
+  desc: null
+  value: 0.2
+input_size:
+  desc: null
+  value: 768
+emb_size:
+  desc: null
+  value: 1024
+output_size:
+  desc: null
+  value: 1
+actfxn:
+  desc: null
+  value: selu
+linear_type:
+  desc: null
+  value: ortho
+smilescol:
+  desc: null
+  value: SMILES
+labelcol:
+  desc: null
+  value: tox5
+_wandb:
+  desc: null
+  value:
+    python_version: 3.11.8
+    cli_version: 0.16.6
+    framework: huggingface
+    huggingface_version: 4.42.4
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1722987213.0
+    t:
+      1:
+      - 1
+      - 5
+      - 11
+      - 49
+      - 53
+      - 55
+      2:
+      - 1
+      - 5
+      - 11
+      - 49
+      - 53
+      - 55
+      - 71
+      3:
+      - 1
+      - 16
+      - 23
+      4: 3.11.8
+      5: 0.16.6
+      6: 4.42.4
+      8:
+      - 5
+      13: linux-x86_64

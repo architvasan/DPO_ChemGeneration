@@ -1,0 +1,19 @@
+init_project: "TOXRIC"
+init_group: "CYP2C19"
+init_notes: "CYP2C19"
+dataset: "data/CYP450/CYP2C19.csv"
+seed_idx: 0
+epochs: 20
+batch_size: 128
+lr: 0.0001
+testprop: 0.2
+input_size: 768
+emb_size: 512
+output_size: 1
+actfxn: "relu"
+linear_type: "xavier"
+smilescol: "SMILES"
+labelcol: "Tox"
+# should get best f1 = 0.7998
+# link to sweep: https://wandb.ai/lvairusorg/Toxric/sweeps/e1shezs6/workspace
+# link to best run: https://wandb.ai/lvairusorg/Toxric/runs/m2nynwzv

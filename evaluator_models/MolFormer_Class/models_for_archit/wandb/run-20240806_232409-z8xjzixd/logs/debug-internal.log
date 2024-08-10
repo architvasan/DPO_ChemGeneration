@@ -1,0 +1,960 @@
+2024-08-06 23:24:09,547 INFO    StreamThr :347681 [internal.py:wandb_internal():87] W&B internal server running at pid: 347681, started at: 2024-08-06 23:24:09.546422
+2024-08-06 23:24:09,549 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: status
+2024-08-06 23:24:09,585 INFO    WriterThread:347681 [datastore.py:open_for_write():85] open: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/run-z8xjzixd.wandb
+2024-08-06 23:24:09,586 DEBUG   SenderThread:347681 [sender.py:send():336] send: header
+2024-08-06 23:24:09,795 DEBUG   SenderThread:347681 [sender.py:send():336] send: run
+2024-08-06 23:24:10,004 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: check_version
+2024-08-06 23:24:10,004 INFO    SenderThread:347681 [dir_watcher.py:__init__():219] watching files in: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files
+2024-08-06 23:24:10,004 INFO    SenderThread:347681 [sender.py:_start_run_threads():1078] run started: z8xjzixd with start time 1722986649.583845
+2024-08-06 23:24:10,005 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:24:10,006 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:24:10,007 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: check_version
+2024-08-06 23:24:10,124 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: run_start
+2024-08-06 23:24:10,158 DEBUG   HandlerThread:347681 [system_info.py:__init__():31] System info init
+2024-08-06 23:24:10,158 DEBUG   HandlerThread:347681 [system_info.py:__init__():46] System info init done
+2024-08-06 23:24:10,158 INFO    HandlerThread:347681 [system_monitor.py:start():183] Starting system monitor
+2024-08-06 23:24:10,159 INFO    SystemMonitor:347681 [system_monitor.py:_start():147] Starting system asset monitoring threads
+2024-08-06 23:24:10,159 INFO    HandlerThread:347681 [system_monitor.py:probe():204] Collecting system info
+2024-08-06 23:24:10,159 INFO    SystemMonitor:347681 [interfaces.py:start():187] Started cpu monitoring
+2024-08-06 23:24:10,160 INFO    SystemMonitor:347681 [interfaces.py:start():187] Started disk monitoring
+2024-08-06 23:24:10,160 INFO    SystemMonitor:347681 [interfaces.py:start():187] Started gpu monitoring
+2024-08-06 23:24:10,161 INFO    SystemMonitor:347681 [interfaces.py:start():187] Started memory monitoring
+2024-08-06 23:24:10,161 INFO    SystemMonitor:347681 [interfaces.py:start():187] Started network monitoring
+2024-08-06 23:24:10,250 DEBUG   HandlerThread:347681 [system_info.py:probe():195] Probing system
+2024-08-06 23:24:10,253 DEBUG   HandlerThread:347681 [system_info.py:_probe_git():180] Probing git
+2024-08-06 23:24:10,265 DEBUG   HandlerThread:347681 [system_info.py:_probe_git():188] Probing git done
+2024-08-06 23:24:10,265 DEBUG   HandlerThread:347681 [system_info.py:probe():240] Probing system done
+2024-08-06 23:24:10,265 DEBUG   HandlerThread:347681 [system_monitor.py:probe():213] {'os': 'Linux-5.14.21-150500.55.49-default-x86_64-with-glibc2.31', 'python': '3.11.8', 'heartbeatAt': '2024-08-06T23:24:10.250870', 'startedAt': '2024-08-06T23:24:09.517702', 'docker': None, 'cuda': None, 'args': ('-y', 'yaml_files/cardio5.yaml'), 'state': 'running', 'program': '/lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/run_script_b_single.py', 'codePath': 'ModelTraining/models_for_archit/run_script_b_single.py', 'git': {'remote': 'https://github.com/architvasan/Pharmacokinetic_Modeling.git', 'commit': '024bcdfeac7617e5664c223597ad165f44ec0028'}, 'email': None, 'root': '/lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling', 'host': 'x3013c0s7b1n0', 'username': 'lvairusanl', 'executable': '/lus/eagle/projects/datascience/lvairus/envs/sst/bin/python', 'cpu_count': 32, 'cpu_count_logical': 64, 'cpu_freq': {'current': 2837.6164843750007, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 3552.295, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 3277.774, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 3564.511, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 3485.073, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 3442.029, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}, {'current': 2794.557, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 20.0, 'used': 1.5189590454101562}, 'gpu': 'NVIDIA A100-SXM4-40GB', 'gpu_count': 4, 'gpu_devices': [{'name': 'NVIDIA A100-SXM4-40GB', 'memory_total': 42949672960}, {'name': 'NVIDIA A100-SXM4-40GB', 'memory_total': 42949672960}, {'name': 'NVIDIA A100-SXM4-40GB', 'memory_total': 42949672960}, {'name': 'NVIDIA A100-SXM4-40GB', 'memory_total': 42949672960}], 'memory': {'total': 503.1979866027832}}
+2024-08-06 23:24:10,265 INFO    HandlerThread:347681 [system_monitor.py:probe():214] Finished collecting system info
+2024-08-06 23:24:10,265 INFO    HandlerThread:347681 [system_monitor.py:probe():217] Publishing system info
+2024-08-06 23:24:10,265 DEBUG   HandlerThread:347681 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2024-08-06 23:24:10,267 DEBUG   HandlerThread:347681 [system_info.py:_save_pip():67] Saving pip packages done
+2024-08-06 23:24:10,268 DEBUG   HandlerThread:347681 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2024-08-06 23:24:11,007 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_created():278] file/dir created: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/conda-environment.yaml
+2024-08-06 23:24:11,007 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_created():278] file/dir created: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/requirements.txt
+2024-08-06 23:24:11,007 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_created():278] file/dir created: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json
+2024-08-06 23:24:25,967 DEBUG   HandlerThread:347681 [system_info.py:_save_conda():86] Saving conda packages done
+2024-08-06 23:24:25,971 INFO    HandlerThread:347681 [system_monitor.py:probe():219] Finished publishing system info
+2024-08-06 23:24:25,989 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: status_report
+2024-08-06 23:24:25,989 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: keepalive
+2024-08-06 23:24:25,989 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: status_report
+2024-08-06 23:24:25,990 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: keepalive
+2024-08-06 23:24:25,990 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: status_report
+2024-08-06 23:24:25,990 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: keepalive
+2024-08-06 23:24:25,990 DEBUG   SenderThread:347681 [sender.py:send():336] send: files
+2024-08-06 23:24:25,990 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-metadata.json with policy now
+2024-08-06 23:24:25,995 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: stop_status
+2024-08-06 23:24:25,995 DEBUG   SenderThread:347681 [sender.py:send():336] send: telemetry
+2024-08-06 23:24:25,995 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: stop_status
+2024-08-06 23:24:26,015 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/conda-environment.yaml
+2024-08-06 23:24:26,015 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_created():278] file/dir created: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-metadata.json
+2024-08-06 23:24:26,245 INFO    wandb-upload_0:347681 [upload_job.py:push():138] Uploaded file /var/tmp/pbs.2055294.polaris-pbs-01.hsn.cm.polaris.alcf.anl.gov/tmp75mil0smwandb/rlwido2p-wandb-metadata.json
+2024-08-06 23:24:30,125 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: status_report
+2024-08-06 23:24:35,125 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: status_report
+2024-08-06 23:24:40,129 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: status_report
+2024-08-06 23:24:40,993 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: keepalive
+2024-08-06 23:24:40,993 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: keepalive
+2024-08-06 23:24:41,021 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/config.yaml
+2024-08-06 23:24:45,252 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: status_report
+2024-08-06 23:24:45,995 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: keepalive
+2024-08-06 23:24:50,253 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: status_report
+2024-08-06 23:24:51,505 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: keepalive
+2024-08-06 23:24:55,253 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: status_report
+2024-08-06 23:24:56,506 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: keepalive
+2024-08-06 23:24:57,750 DEBUG   SenderThread:347681 [sender.py:send():336] send: telemetry
+2024-08-06 23:25:00,751 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: status_report
+2024-08-06 23:25:01,709 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: keepalive
+2024-08-06 23:25:05,751 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: status_report
+2024-08-06 23:25:07,488 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: keepalive
+2024-08-06 23:25:09,071 DEBUG   SenderThread:347681 [sender.py:send():336] send: telemetry
+2024-08-06 23:25:09,118 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:09,119 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:09,120 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:09,122 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:10,034 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json
+2024-08-06 23:25:10,034 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_created():278] file/dir created: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/output.log
+2024-08-06 23:25:10,162 DEBUG   SystemMonitor:347681 [system_monitor.py:_start():161] Starting system metrics aggregation loop
+2024-08-06 23:25:10,164 DEBUG   SenderThread:347681 [sender.py:send():336] send: stats
+2024-08-06 23:25:11,167 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: status_report
+2024-08-06 23:25:12,037 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/config.yaml
+2024-08-06 23:25:12,037 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/output.log
+2024-08-06 23:25:12,489 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: keepalive
+2024-08-06 23:25:16,265 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: status_report
+2024-08-06 23:25:17,489 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: keepalive
+2024-08-06 23:25:17,954 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:17,955 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:17,956 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:17,958 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:18,040 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json
+2024-08-06 23:25:19,166 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:19,167 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:19,167 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:19,168 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:19,168 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:19,168 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:19,170 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:19,172 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:19,172 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:19,172 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:19,174 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:19,174 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:19,174 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:19,176 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:19,176 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:19,176 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:19,178 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:19,178 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:19,178 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:19,180 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:19,647 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:19,647 DEBUG   SenderThread:347681 [sender.py:send():336] send: files
+2024-08-06 23:25:19,648 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:19,648 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file media/images/CARDIO Confusion Matrix_7_d115b7741d4a836e778f.png with policy now
+2024-08-06 23:25:19,650 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:19,650 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:19,654 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:19,654 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:19,654 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:19,656 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:19,969 INFO    wandb-upload_0:347681 [upload_job.py:push():138] Uploaded file /var/tmp/pbs.2055294.polaris-pbs-01.hsn.cm.polaris.alcf.anl.gov/tmp75mil0smwandb/9wmz0th7-media/images/CARDIO Confusion Matrix_7_d115b7741d4a836e778f.png
+2024-08-06 23:25:20,045 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json
+2024-08-06 23:25:20,045 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_created():278] file/dir created: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/media/images/CARDIO Confusion Matrix_7_d115b7741d4a836e778f.png
+2024-08-06 23:25:20,046 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_created():278] file/dir created: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/media/images
+2024-08-06 23:25:20,046 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_created():278] file/dir created: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/media
+2024-08-06 23:25:20,385 INFO    wandb-upload_0:347681 [upload_job.py:push():138] Uploaded file /var/tmp/pbs.2055294.polaris-pbs-01.hsn.cm.polaris.alcf.anl.gov/tmp75mil0smwandb/josmjunj-media/images/CARDIO Confusion Matrix_7_d115b7741d4a836e778f.png
+2024-08-06 23:25:21,657 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: status_report
+2024-08-06 23:25:22,049 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/output.log
+2024-08-06 23:25:22,490 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: keepalive
+2024-08-06 23:25:24,451 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:24,452 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:24,452 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:24,455 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:25,053 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json
+2024-08-06 23:25:25,664 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:25,664 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:25,665 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:25,665 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:25,666 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:25,666 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:25,667 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:25,669 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:25,669 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:25,669 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:25,671 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:25,671 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:25,671 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:25,673 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:25,674 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:25,674 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:25,676 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:25,676 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:25,676 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:25,677 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:25,814 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:25,814 DEBUG   SenderThread:347681 [sender.py:send():336] send: files
+2024-08-06 23:25:25,815 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:25,815 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file media/images/CARDIO Confusion Matrix_15_02ecbb4ca7222ea56758.png with policy now
+2024-08-06 23:25:25,816 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:25,816 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:25,822 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:25,822 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:25,822 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:25,824 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:26,055 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json
+2024-08-06 23:25:26,056 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_created():278] file/dir created: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/media/images/CARDIO Confusion Matrix_15_02ecbb4ca7222ea56758.png
+2024-08-06 23:25:26,056 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/media/images
+2024-08-06 23:25:26,134 INFO    wandb-upload_0:347681 [upload_job.py:push():138] Uploaded file /var/tmp/pbs.2055294.polaris-pbs-01.hsn.cm.polaris.alcf.anl.gov/tmp75mil0smwandb/tdvsuwtn-media/images/CARDIO Confusion Matrix_15_02ecbb4ca7222ea56758.png
+2024-08-06 23:25:26,515 INFO    wandb-upload_0:347681 [upload_job.py:push():138] Uploaded file /var/tmp/pbs.2055294.polaris-pbs-01.hsn.cm.polaris.alcf.anl.gov/tmp75mil0smwandb/2heaj1uk-media/images/CARDIO Confusion Matrix_15_02ecbb4ca7222ea56758.png
+2024-08-06 23:25:26,824 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: status_report
+2024-08-06 23:25:27,491 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: keepalive
+2024-08-06 23:25:28,057 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/output.log
+2024-08-06 23:25:30,616 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:30,617 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:30,617 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:30,621 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:31,060 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json
+2024-08-06 23:25:31,825 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:31,826 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:31,827 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:31,827 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:31,828 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:31,828 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:31,829 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:31,829 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:31,830 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: status_report
+2024-08-06 23:25:31,831 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:31,832 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:31,832 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:31,833 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:31,834 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:31,834 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:31,836 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:31,836 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:31,836 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:31,838 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:31,838 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:31,838 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:31,840 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:31,840 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:31,840 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:31,842 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:32,061 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json
+2024-08-06 23:25:32,492 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: keepalive
+2024-08-06 23:25:34,062 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/output.log
+2024-08-06 23:25:36,619 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:36,620 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:36,620 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:36,624 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:37,065 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json
+2024-08-06 23:25:37,492 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: keepalive
+2024-08-06 23:25:37,624 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: status_report
+2024-08-06 23:25:37,828 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:37,829 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:37,830 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:37,830 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:37,831 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:37,831 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:37,831 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:37,832 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:37,834 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:37,834 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:37,834 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:37,835 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:37,836 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:37,836 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:37,838 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:37,838 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:37,838 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:37,840 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:37,840 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:37,841 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:37,842 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:37,843 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:37,843 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:37,844 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:38,067 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json
+2024-08-06 23:25:40,068 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/output.log
+2024-08-06 23:25:40,165 DEBUG   SenderThread:347681 [sender.py:send():336] send: stats
+2024-08-06 23:25:42,493 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: keepalive
+2024-08-06 23:25:42,624 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:42,625 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:42,625 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:42,626 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: status_report
+2024-08-06 23:25:42,629 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:43,072 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json
+2024-08-06 23:25:43,834 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:43,835 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:43,835 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:43,836 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:43,836 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:43,836 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:43,837 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:43,839 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:43,839 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:43,839 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:43,841 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:43,841 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:43,841 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:43,843 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:43,843 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:43,843 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:43,845 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:43,845 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:43,845 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:43,847 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:43,958 DEBUG   SenderThread:347681 [sender.py:send():336] send: files
+2024-08-06 23:25:43,959 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file media/images/CARDIO Confusion Matrix_37_7ba54e5a3674205c1f8a.png with policy now
+2024-08-06 23:25:43,959 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:43,959 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:43,960 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:43,960 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:43,964 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:43,964 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:43,964 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:43,966 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:44,074 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json
+2024-08-06 23:25:44,074 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_created():278] file/dir created: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/media/images/CARDIO Confusion Matrix_37_7ba54e5a3674205c1f8a.png
+2024-08-06 23:25:44,075 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/media/images
+2024-08-06 23:25:44,189 INFO    wandb-upload_0:347681 [upload_job.py:push():138] Uploaded file /var/tmp/pbs.2055294.polaris-pbs-01.hsn.cm.polaris.alcf.anl.gov/tmp75mil0smwandb/01pf4axy-media/images/CARDIO Confusion Matrix_37_7ba54e5a3674205c1f8a.png
+2024-08-06 23:25:44,549 INFO    wandb-upload_0:347681 [upload_job.py:push():138] Uploaded file /var/tmp/pbs.2055294.polaris-pbs-01.hsn.cm.polaris.alcf.anl.gov/tmp75mil0smwandb/yd3vpeez-media/images/CARDIO Confusion Matrix_37_7ba54e5a3674205c1f8a.png
+2024-08-06 23:25:46,076 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/output.log
+2024-08-06 23:25:47,494 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: keepalive
+2024-08-06 23:25:47,966 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: status_report
+2024-08-06 23:25:48,753 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:48,754 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:48,755 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:48,758 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:49,079 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json
+2024-08-06 23:25:49,961 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:49,962 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:49,963 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:49,963 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:49,964 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:49,964 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:49,964 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:49,965 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:49,966 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:49,967 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:49,967 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:49,968 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:49,968 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:49,969 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:49,970 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:49,971 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:49,971 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:49,973 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:49,973 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:49,973 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:49,975 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:49,975 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:49,975 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:49,977 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:50,080 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json
+2024-08-06 23:25:52,082 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/output.log
+2024-08-06 23:25:52,495 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: keepalive
+2024-08-06 23:25:52,977 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: status_report
+2024-08-06 23:25:54,753 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:54,754 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:54,754 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:54,758 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:55,085 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json
+2024-08-06 23:25:55,964 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:55,965 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:55,965 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:55,965 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:55,966 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:55,967 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:55,967 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:55,970 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:55,970 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:55,970 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:55,972 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:55,972 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:55,972 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:55,974 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:55,974 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:55,974 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:55,976 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:55,977 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:55,977 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:55,979 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:56,088 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:56,088 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json
+2024-08-06 23:25:56,089 DEBUG   SenderThread:347681 [sender.py:send():336] send: files
+2024-08-06 23:25:56,089 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:25:56,089 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_created():278] file/dir created: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/media/images/CARDIO Confusion Matrix_52_1a8058dd10a79a8c9360.png
+2024-08-06 23:25:56,089 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file media/images/CARDIO Confusion Matrix_52_1a8058dd10a79a8c9360.png with policy now
+2024-08-06 23:25:56,090 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/media/images
+2024-08-06 23:25:56,090 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:56,090 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:56,094 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:56,095 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:25:56,095 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:25:56,097 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:25:56,311 INFO    wandb-upload_0:347681 [upload_job.py:push():138] Uploaded file /var/tmp/pbs.2055294.polaris-pbs-01.hsn.cm.polaris.alcf.anl.gov/tmp75mil0smwandb/po9hslme-media/images/CARDIO Confusion Matrix_52_1a8058dd10a79a8c9360.png
+2024-08-06 23:25:56,643 INFO    wandb-upload_0:347681 [upload_job.py:push():138] Uploaded file /var/tmp/pbs.2055294.polaris-pbs-01.hsn.cm.polaris.alcf.anl.gov/tmp75mil0smwandb/dxw6tj41-media/images/CARDIO Confusion Matrix_52_1a8058dd10a79a8c9360.png
+2024-08-06 23:25:57,089 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json
+2024-08-06 23:25:57,496 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: keepalive
+2024-08-06 23:25:58,090 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/output.log
+2024-08-06 23:25:58,097 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: status_report
+2024-08-06 23:26:00,887 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:00,888 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:00,888 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:00,891 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:01,093 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json
+2024-08-06 23:26:02,095 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:02,096 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:02,097 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:02,097 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:02,098 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:02,098 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:02,098 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:02,099 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:02,101 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:02,101 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:02,101 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:02,103 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:02,103 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:02,103 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:02,105 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:02,105 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:02,105 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:02,107 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:02,107 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:02,107 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:02,109 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:02,109 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:02,109 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:02,111 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:02,497 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: keepalive
+2024-08-06 23:26:03,096 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json
+2024-08-06 23:26:03,111 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: status_report
+2024-08-06 23:26:04,096 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/output.log
+2024-08-06 23:26:06,891 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:06,892 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:06,892 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:06,896 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:07,100 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json
+2024-08-06 23:26:07,498 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: keepalive
+2024-08-06 23:26:08,099 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:08,099 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:08,100 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:08,101 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:08,101 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:08,102 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:08,102 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:08,103 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:08,105 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:08,105 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:08,105 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:08,107 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:08,107 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:08,107 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:08,109 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:08,109 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:08,109 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:08,111 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:08,111 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:08,111 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:08,113 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:08,113 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:08,114 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: status_report
+2024-08-06 23:26:08,114 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:08,116 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:09,106 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json
+2024-08-06 23:26:10,107 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/output.log
+2024-08-06 23:26:10,166 DEBUG   SenderThread:347681 [sender.py:send():336] send: stats
+2024-08-06 23:26:12,499 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: keepalive
+2024-08-06 23:26:13,026 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:13,218 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:13,218 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:13,219 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:13,220 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:13,220 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:13,221 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:13,221 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:13,222 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:13,222 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:13,223 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:13,223 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:13,224 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:13,225 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:13,225 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:13,226 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:13,227 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:13,328 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:13,329 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:13,329 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: status_report
+2024-08-06 23:26:13,333 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:14,110 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json
+2024-08-06 23:26:14,111 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/output.log
+2024-08-06 23:26:14,441 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:14,442 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:14,443 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:14,445 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:14,446 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:14,447 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:14,449 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:14,449 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:14,454 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:14,454 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:14,454 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:14,458 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:14,458 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:14,458 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:14,461 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:14,461 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:14,461 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:14,464 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:14,464 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:14,464 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:14,467 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:14,468 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:14,468 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:14,470 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:15,112 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json
+2024-08-06 23:26:16,113 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/output.log
+2024-08-06 23:26:17,500 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: keepalive
+2024-08-06 23:26:18,471 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: status_report
+2024-08-06 23:26:19,297 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:19,299 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:19,299 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:19,305 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:20,117 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json
+2024-08-06 23:26:20,505 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:20,507 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:20,509 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:20,510 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:20,510 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:20,511 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:20,512 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:20,513 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:20,517 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:20,517 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:20,517 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:20,520 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:20,520 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:20,520 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:20,523 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:20,523 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:20,523 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:20,526 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:20,526 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:20,526 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:20,529 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:20,529 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:20,529 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:20,531 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:21,118 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json
+2024-08-06 23:26:22,119 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/output.log
+2024-08-06 23:26:22,501 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: keepalive
+2024-08-06 23:26:23,532 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: status_report
+2024-08-06 23:26:25,298 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:25,299 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:25,300 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:25,304 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:26,123 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json
+2024-08-06 23:26:26,509 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:26,539 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:26,540 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:26,540 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:26,542 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:26,542 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:26,543 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:26,546 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:26,548 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:26,548 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:26,548 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:26,551 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:26,551 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:26,551 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:26,554 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:26,555 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:26,555 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:26,557 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:26,558 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:26,558 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:26,561 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:26,561 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:26,561 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:26,564 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:27,125 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json
+2024-08-06 23:26:27,502 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: keepalive
+2024-08-06 23:26:28,126 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/output.log
+2024-08-06 23:26:28,564 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: status_report
+2024-08-06 23:26:31,303 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:31,305 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:31,305 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:31,321 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:32,129 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json
+2024-08-06 23:26:32,503 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: keepalive
+2024-08-06 23:26:32,512 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:32,514 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:32,515 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:32,517 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:32,517 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:32,518 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:32,518 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:32,519 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:32,523 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:32,523 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:32,523 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:32,527 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:32,527 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:32,527 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:32,530 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:32,530 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:32,530 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:32,533 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:32,533 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:32,533 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:32,536 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:32,536 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:32,536 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:32,539 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:33,130 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json
+2024-08-06 23:26:34,131 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/output.log
+2024-08-06 23:26:34,540 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: status_report
+2024-08-06 23:26:37,305 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:37,306 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:37,307 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:37,312 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:37,504 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: keepalive
+2024-08-06 23:26:38,135 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json
+2024-08-06 23:26:38,513 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:38,515 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:38,517 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:38,518 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:38,518 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:38,519 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:38,519 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:38,521 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:38,525 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:38,525 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:38,525 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:38,528 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:38,529 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:38,529 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:38,531 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:38,531 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:38,532 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:38,534 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:38,535 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:38,535 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:38,538 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:38,538 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:38,538 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:38,541 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:39,137 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json
+2024-08-06 23:26:39,541 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: status_report
+2024-08-06 23:26:40,138 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/output.log
+2024-08-06 23:26:40,168 DEBUG   SenderThread:347681 [sender.py:send():336] send: stats
+2024-08-06 23:26:42,505 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: keepalive
+2024-08-06 23:26:43,304 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:43,306 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:43,307 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:43,312 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:44,142 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json
+2024-08-06 23:26:44,514 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:44,515 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:44,516 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:44,518 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:44,519 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:44,519 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:44,520 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:44,520 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:44,525 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:44,525 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:44,525 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:44,528 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:44,529 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:44,529 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:44,532 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:44,532 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:44,532 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:44,536 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:44,536 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:44,536 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:44,539 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:44,539 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:44,540 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:44,542 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:44,542 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: status_report
+2024-08-06 23:26:45,143 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json
+2024-08-06 23:26:46,144 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/output.log
+2024-08-06 23:26:47,505 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: keepalive
+2024-08-06 23:26:49,306 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:49,399 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:49,399 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:49,403 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:50,148 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json
+2024-08-06 23:26:50,403 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: status_report
+2024-08-06 23:26:50,513 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:50,515 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:50,517 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:50,518 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:50,518 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:50,519 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:50,519 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:50,520 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:50,524 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:50,524 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:50,524 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:50,527 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:50,527 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:50,527 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:50,530 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:50,530 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:50,530 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:50,533 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:50,533 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:50,533 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:50,536 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:50,536 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:50,537 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:50,539 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:51,149 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json
+2024-08-06 23:26:52,149 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/output.log
+2024-08-06 23:26:52,506 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: keepalive
+2024-08-06 23:26:55,306 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:55,308 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:55,308 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:55,313 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:56,153 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json
+2024-08-06 23:26:56,314 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: status_report
+2024-08-06 23:26:56,518 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:56,519 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:56,521 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:56,522 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:56,522 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:56,523 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:56,524 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:56,525 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:26:56,530 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:56,530 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:56,530 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:56,533 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:56,533 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:56,533 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:56,536 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:56,536 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:56,536 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:56,538 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:56,539 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:56,539 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:56,541 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:56,542 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:26:56,542 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:26:56,545 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:26:57,155 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json
+2024-08-06 23:26:57,155 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/output.log
+2024-08-06 23:26:57,507 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: keepalive
+2024-08-06 23:27:01,312 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:27:01,313 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:27:01,314 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:27:01,314 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: status_report
+2024-08-06 23:27:01,318 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:27:02,160 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json
+2024-08-06 23:27:02,508 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: keepalive
+2024-08-06 23:27:02,520 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:27:02,522 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:27:02,523 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:27:02,524 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:27:02,524 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:27:02,526 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:27:02,526 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:27:02,527 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:27:02,531 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:27:02,531 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:27:02,531 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:27:02,535 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:27:02,535 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:27:02,535 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:27:02,539 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:27:02,539 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:27:02,540 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:27:02,543 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:27:02,543 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:27:02,543 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:27:02,546 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:27:02,546 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:27:02,546 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:27:02,549 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:27:03,161 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json
+2024-08-06 23:27:03,161 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/output.log
+2024-08-06 23:27:06,550 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: status_report
+2024-08-06 23:27:07,312 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:27:07,314 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:27:07,314 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:27:07,319 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:27:07,509 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: keepalive
+2024-08-06 23:27:08,166 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json
+2024-08-06 23:27:08,520 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:27:08,522 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:27:08,523 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:27:08,524 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:27:08,525 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:27:08,525 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:27:08,526 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:27:08,529 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:27:08,531 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:27:08,532 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:27:08,532 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:27:08,535 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:27:08,536 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:27:08,536 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:27:08,539 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:27:08,539 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:27:08,539 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:27:08,542 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:27:08,542 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:27:08,542 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:27:08,553 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:27:08,553 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:27:08,554 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:27:08,557 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:27:09,167 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json
+2024-08-06 23:27:09,168 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/output.log
+2024-08-06 23:27:10,170 DEBUG   SenderThread:347681 [sender.py:send():336] send: stats
+2024-08-06 23:27:12,170 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: status_report
+2024-08-06 23:27:12,510 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: keepalive
+2024-08-06 23:27:13,322 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:27:13,323 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:27:13,323 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:27:13,324 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:27:13,324 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:27:13,325 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:27:13,325 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:27:13,326 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:27:13,326 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:27:13,327 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:27:13,327 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:27:13,328 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:27:13,329 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:27:13,329 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:27:13,330 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:27:13,330 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:27:13,332 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:27:13,423 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:27:13,424 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:27:13,428 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:27:14,174 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json
+2024-08-06 23:27:14,544 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:27:14,545 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:27:14,546 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:27:14,547 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:27:14,548 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:27:14,549 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:27:14,550 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:27:14,553 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: partial_history
+2024-08-06 23:27:14,556 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:27:14,556 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:27:14,556 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:27:14,560 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:27:14,560 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:27:14,560 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:27:14,564 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:27:14,564 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:27:14,564 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:27:14,567 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:27:14,567 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:27:14,567 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:27:14,570 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:27:14,570 DEBUG   SenderThread:347681 [sender.py:send():336] send: history
+2024-08-06 23:27:14,570 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: summary_record
+2024-08-06 23:27:14,573 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:27:14,573 DEBUG   SenderThread:347681 [sender.py:send():336] send: exit
+2024-08-06 23:27:14,573 INFO    SenderThread:347681 [sender.py:send_exit():559] handling exit code: 0
+2024-08-06 23:27:14,573 INFO    SenderThread:347681 [sender.py:send_exit():561] handling runtime: 184
+2024-08-06 23:27:14,576 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:27:14,576 INFO    SenderThread:347681 [sender.py:send_exit():567] send defer
+2024-08-06 23:27:14,576 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: defer
+2024-08-06 23:27:14,577 INFO    HandlerThread:347681 [handler.py:handle_request_defer():170] handle defer: 0
+2024-08-06 23:27:14,577 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: defer
+2024-08-06 23:27:14,577 INFO    SenderThread:347681 [sender.py:send_request_defer():583] handle sender defer: 0
+2024-08-06 23:27:14,577 INFO    SenderThread:347681 [sender.py:transition_state():587] send defer: 1
+2024-08-06 23:27:14,577 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: defer
+2024-08-06 23:27:14,577 INFO    HandlerThread:347681 [handler.py:handle_request_defer():170] handle defer: 1
+2024-08-06 23:27:14,577 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: defer
+2024-08-06 23:27:14,577 INFO    SenderThread:347681 [sender.py:send_request_defer():583] handle sender defer: 1
+2024-08-06 23:27:14,577 INFO    SenderThread:347681 [sender.py:transition_state():587] send defer: 2
+2024-08-06 23:27:14,577 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: defer
+2024-08-06 23:27:14,577 INFO    HandlerThread:347681 [handler.py:handle_request_defer():170] handle defer: 2
+2024-08-06 23:27:14,577 INFO    HandlerThread:347681 [system_monitor.py:finish():193] Stopping system monitor
+2024-08-06 23:27:14,578 DEBUG   SystemMonitor:347681 [system_monitor.py:_start():168] Finished system metrics aggregation loop
+2024-08-06 23:27:14,578 DEBUG   SystemMonitor:347681 [system_monitor.py:_start():172] Publishing last batch of metrics
+2024-08-06 23:27:14,579 INFO    HandlerThread:347681 [interfaces.py:finish():199] Joined cpu monitor
+2024-08-06 23:27:14,580 INFO    HandlerThread:347681 [interfaces.py:finish():199] Joined disk monitor
+2024-08-06 23:27:14,937 INFO    HandlerThread:347681 [interfaces.py:finish():199] Joined gpu monitor
+2024-08-06 23:27:14,937 INFO    HandlerThread:347681 [interfaces.py:finish():199] Joined memory monitor
+2024-08-06 23:27:14,937 INFO    HandlerThread:347681 [interfaces.py:finish():199] Joined network monitor
+2024-08-06 23:27:14,938 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: defer
+2024-08-06 23:27:14,938 INFO    SenderThread:347681 [sender.py:send_request_defer():583] handle sender defer: 2
+2024-08-06 23:27:14,938 INFO    SenderThread:347681 [sender.py:transition_state():587] send defer: 3
+2024-08-06 23:27:14,938 DEBUG   SenderThread:347681 [sender.py:send():336] send: stats
+2024-08-06 23:27:14,938 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: defer
+2024-08-06 23:27:14,939 INFO    HandlerThread:347681 [handler.py:handle_request_defer():170] handle defer: 3
+2024-08-06 23:27:14,939 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: defer
+2024-08-06 23:27:14,939 INFO    SenderThread:347681 [sender.py:send_request_defer():583] handle sender defer: 3
+2024-08-06 23:27:14,939 INFO    SenderThread:347681 [sender.py:transition_state():587] send defer: 4
+2024-08-06 23:27:14,939 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: defer
+2024-08-06 23:27:14,939 INFO    HandlerThread:347681 [handler.py:handle_request_defer():170] handle defer: 4
+2024-08-06 23:27:14,939 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: defer
+2024-08-06 23:27:14,940 INFO    SenderThread:347681 [sender.py:send_request_defer():583] handle sender defer: 4
+2024-08-06 23:27:14,940 INFO    SenderThread:347681 [sender.py:transition_state():587] send defer: 5
+2024-08-06 23:27:14,940 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: defer
+2024-08-06 23:27:14,940 INFO    HandlerThread:347681 [handler.py:handle_request_defer():170] handle defer: 5
+2024-08-06 23:27:15,047 DEBUG   SenderThread:347681 [sender.py:send():336] send: summary
+2024-08-06 23:27:15,051 INFO    SenderThread:347681 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-08-06 23:27:15,051 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: defer
+2024-08-06 23:27:15,051 INFO    SenderThread:347681 [sender.py:send_request_defer():583] handle sender defer: 5
+2024-08-06 23:27:15,051 INFO    SenderThread:347681 [sender.py:transition_state():587] send defer: 6
+2024-08-06 23:27:15,051 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: defer
+2024-08-06 23:27:15,051 INFO    HandlerThread:347681 [handler.py:handle_request_defer():170] handle defer: 6
+2024-08-06 23:27:15,051 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: defer
+2024-08-06 23:27:15,051 INFO    SenderThread:347681 [sender.py:send_request_defer():583] handle sender defer: 6
+2024-08-06 23:27:15,051 INFO    SenderThread:347681 [sender.py:transition_state():587] send defer: 7
+2024-08-06 23:27:15,052 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: status_report
+2024-08-06 23:27:15,052 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: defer
+2024-08-06 23:27:15,052 INFO    HandlerThread:347681 [handler.py:handle_request_defer():170] handle defer: 7
+2024-08-06 23:27:15,052 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: defer
+2024-08-06 23:27:15,052 INFO    SenderThread:347681 [sender.py:send_request_defer():583] handle sender defer: 7
+2024-08-06 23:27:15,160 INFO    SenderThread:347681 [sender.py:transition_state():587] send defer: 8
+2024-08-06 23:27:15,160 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: defer
+2024-08-06 23:27:15,160 INFO    HandlerThread:347681 [handler.py:handle_request_defer():170] handle defer: 8
+2024-08-06 23:27:15,160 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: defer
+2024-08-06 23:27:15,160 INFO    SenderThread:347681 [sender.py:send_request_defer():583] handle sender defer: 8
+2024-08-06 23:27:15,173 INFO    SenderThread:347681 [sender.py:transition_state():587] send defer: 9
+2024-08-06 23:27:15,173 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: defer
+2024-08-06 23:27:15,173 DEBUG   SenderThread:347681 [sender.py:send():336] send: artifact
+2024-08-06 23:27:15,173 INFO    HandlerThread:347681 [handler.py:handle_request_defer():170] handle defer: 9
+2024-08-06 23:27:15,176 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json
+2024-08-06 23:27:15,176 INFO    Thread-12 :347681 [dir_watcher.py:_on_file_modified():295] file/dir modified: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/output.log
+2024-08-06 23:27:15,551 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: poll_exit
+2024-08-06 23:27:15,690 INFO    wandb-upload_1:347681 [upload_job.py:push():93] Skipped uploading /home/lvairusanl/.local/share/wandb/artifacts/staging/tmp2yzvo_to
+2024-08-06 23:27:15,812 INFO    wandb-upload_0:347681 [upload_job.py:push():96] Uploaded file /home/lvairusanl/.local/share/wandb/artifacts/staging/tmpdz8s6fjm
+2024-08-06 23:27:16,523 INFO    SenderThread:347681 [sender.py:send_artifact():1428] sent artifact job-https___github.com_architvasan_Pharmacokinetic_Modeling.git_ModelTraining_models_for_archit_run_script_b_single.py - {'id': 'QXJ0aWZhY3Q6MTExMTYyNjcwMw==', 'digest': '20cac41649922d58f2ede3ed4cdd05ac', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjM4NDAxMzQ1OA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTExMTYyNjQxMA==', 'versionIndex': 5}}, 'version': 'latest'}
+2024-08-06 23:27:16,523 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: defer
+2024-08-06 23:27:16,523 INFO    SenderThread:347681 [sender.py:send_request_defer():583] handle sender defer: 9
+2024-08-06 23:27:16,523 INFO    SenderThread:347681 [dir_watcher.py:finish():365] shutting down directory watcher
+2024-08-06 23:27:17,177 INFO    SenderThread:347681 [dir_watcher.py:finish():395] scan: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files
+2024-08-06 23:27:17,177 INFO    SenderThread:347681 [dir_watcher.py:finish():409] scan save: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/requirements.txt requirements.txt
+2024-08-06 23:27:17,178 INFO    SenderThread:347681 [dir_watcher.py:finish():409] scan save: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/conda-environment.yaml conda-environment.yaml
+2024-08-06 23:27:17,178 INFO    SenderThread:347681 [dir_watcher.py:finish():409] scan save: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/output.log output.log
+2024-08-06 23:27:17,180 INFO    SenderThread:347681 [dir_watcher.py:finish():409] scan save: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-metadata.json wandb-metadata.json
+2024-08-06 23:27:17,180 INFO    SenderThread:347681 [dir_watcher.py:finish():409] scan save: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json wandb-summary.json
+2024-08-06 23:27:17,185 INFO    SenderThread:347681 [dir_watcher.py:finish():409] scan save: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/config.yaml config.yaml
+2024-08-06 23:27:17,189 INFO    SenderThread:347681 [dir_watcher.py:finish():409] scan save: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/media/images/CARDIO Confusion Matrix_52_1a8058dd10a79a8c9360.png media/images/CARDIO Confusion Matrix_52_1a8058dd10a79a8c9360.png
+2024-08-06 23:27:17,189 INFO    SenderThread:347681 [dir_watcher.py:finish():409] scan save: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/media/images/CARDIO Confusion Matrix_37_7ba54e5a3674205c1f8a.png media/images/CARDIO Confusion Matrix_37_7ba54e5a3674205c1f8a.png
+2024-08-06 23:27:17,190 INFO    SenderThread:347681 [dir_watcher.py:finish():409] scan save: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/media/images/CARDIO Confusion Matrix_7_d115b7741d4a836e778f.png media/images/CARDIO Confusion Matrix_7_d115b7741d4a836e778f.png
+2024-08-06 23:27:17,190 INFO    SenderThread:347681 [dir_watcher.py:finish():409] scan save: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/media/images/CARDIO Confusion Matrix_15_02ecbb4ca7222ea56758.png media/images/CARDIO Confusion Matrix_15_02ecbb4ca7222ea56758.png
+2024-08-06 23:27:17,190 INFO    SenderThread:347681 [sender.py:transition_state():587] send defer: 10
+2024-08-06 23:27:17,190 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: poll_exit
+2024-08-06 23:27:17,191 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: defer
+2024-08-06 23:27:17,191 INFO    HandlerThread:347681 [handler.py:handle_request_defer():170] handle defer: 10
+2024-08-06 23:27:17,192 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: defer
+2024-08-06 23:27:17,192 INFO    SenderThread:347681 [sender.py:send_request_defer():583] handle sender defer: 10
+2024-08-06 23:27:17,192 INFO    SenderThread:347681 [file_pusher.py:finish():164] shutting down file pusher
+2024-08-06 23:27:17,421 INFO    wandb-upload_1:347681 [upload_job.py:push():138] Uploaded file /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/requirements.txt
+2024-08-06 23:27:17,482 INFO    wandb-upload_0:347681 [upload_job.py:push():138] Uploaded file /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/conda-environment.yaml
+2024-08-06 23:27:17,483 INFO    wandb-upload_2:347681 [upload_job.py:push():138] Uploaded file /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/output.log
+2024-08-06 23:27:17,543 INFO    wandb-upload_3:347681 [upload_job.py:push():138] Uploaded file /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/wandb-summary.json
+2024-08-06 23:27:17,552 INFO    wandb-upload_4:347681 [upload_job.py:push():138] Uploaded file /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/files/config.yaml
+2024-08-06 23:27:17,753 INFO    Thread-11 (_thread_body):347681 [sender.py:transition_state():587] send defer: 11
+2024-08-06 23:27:17,753 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: defer
+2024-08-06 23:27:17,753 INFO    HandlerThread:347681 [handler.py:handle_request_defer():170] handle defer: 11
+2024-08-06 23:27:17,753 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: defer
+2024-08-06 23:27:17,753 INFO    SenderThread:347681 [sender.py:send_request_defer():583] handle sender defer: 11
+2024-08-06 23:27:17,753 INFO    SenderThread:347681 [file_pusher.py:join():169] waiting for file pusher
+2024-08-06 23:27:17,753 INFO    SenderThread:347681 [sender.py:transition_state():587] send defer: 12
+2024-08-06 23:27:17,754 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: defer
+2024-08-06 23:27:17,754 INFO    HandlerThread:347681 [handler.py:handle_request_defer():170] handle defer: 12
+2024-08-06 23:27:17,754 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: defer
+2024-08-06 23:27:17,754 INFO    SenderThread:347681 [sender.py:send_request_defer():583] handle sender defer: 12
+2024-08-06 23:27:17,861 INFO    SenderThread:347681 [sender.py:transition_state():587] send defer: 13
+2024-08-06 23:27:17,862 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: defer
+2024-08-06 23:27:17,862 INFO    HandlerThread:347681 [handler.py:handle_request_defer():170] handle defer: 13
+2024-08-06 23:27:17,862 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: defer
+2024-08-06 23:27:17,862 INFO    SenderThread:347681 [sender.py:send_request_defer():583] handle sender defer: 13
+2024-08-06 23:27:17,862 INFO    SenderThread:347681 [sender.py:transition_state():587] send defer: 14
+2024-08-06 23:27:17,863 DEBUG   SenderThread:347681 [sender.py:send():336] send: final
+2024-08-06 23:27:17,863 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: defer
+2024-08-06 23:27:17,863 DEBUG   SenderThread:347681 [sender.py:send():336] send: footer
+2024-08-06 23:27:17,863 INFO    HandlerThread:347681 [handler.py:handle_request_defer():170] handle defer: 14
+2024-08-06 23:27:17,863 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: defer
+2024-08-06 23:27:17,863 INFO    SenderThread:347681 [sender.py:send_request_defer():583] handle sender defer: 14
+2024-08-06 23:27:17,864 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: poll_exit
+2024-08-06 23:27:17,864 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: poll_exit
+2024-08-06 23:27:17,865 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: server_info
+2024-08-06 23:27:17,865 DEBUG   SenderThread:347681 [sender.py:send_request():363] send_request: server_info
+2024-08-06 23:27:17,866 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: get_summary
+2024-08-06 23:27:17,868 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: sampled_history
+2024-08-06 23:27:17,950 INFO    MainThread:347681 [wandb_run.py:_footer_history_summary_info():3429] rendering history
+2024-08-06 23:27:17,951 INFO    MainThread:347681 [wandb_run.py:_footer_history_summary_info():3461] rendering summary
+2024-08-06 23:27:17,951 INFO    MainThread:347681 [wandb_run.py:_footer_sync_info():3387] logging synced files
+2024-08-06 23:27:17,952 DEBUG   HandlerThread:347681 [handler.py:handle_request():144] handle_request: shutdown
+2024-08-06 23:27:17,952 INFO    HandlerThread:347681 [handler.py:finish():842] shutting down handler
+2024-08-06 23:27:18,865 INFO    WriterThread:347681 [datastore.py:close():298] close: /lus/eagle/projects/datascience/lvairus/Pharmacokinetic_Modeling/ModelTraining/models_for_archit/wandb/run-20240806_232409-z8xjzixd/run-z8xjzixd.wandb
+2024-08-06 23:27:18,950 INFO    SenderThread:347681 [sender.py:finish():1504] shutting down sender
+2024-08-06 23:27:18,950 INFO    SenderThread:347681 [file_pusher.py:finish():164] shutting down file pusher
+2024-08-06 23:27:18,950 INFO    SenderThread:347681 [file_pusher.py:join():169] waiting for file pusher

@@ -1,0 +1,29 @@
+wandb: Currently logged in as: avasan (anl-archit). Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.17.0
+wandb: Run data is saved locally in /nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/Scripts/wandb/run-20240522_022416-xs53x3yn
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run playful-bee-1
+wandb: ⭐️ View project at https://wandb.ai/anl-archit/Pharmacokinetic_Modeling-ModelTraining_MolFormer_Class_Scripts
+wandb: 🚀 View run at https://wandb.ai/anl-archit/Pharmacokinetic_Modeling-ModelTraining_MolFormer_Class_Scripts/runs/xs53x3yn
+/homes/avasan/miniforge3_new/envs/sst_llama/lib/python3.10/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/homes/avasan/miniforge3_new/envs/sst_llama/lib/python3.10/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/nfs/lambda_stor_01/data/avasan/Pharmacokinetic_Modeling/ModelTraining/MolFormer_Class/Scripts/run_script.py", line 85, in <module>
+    data = pd.read_csv(args.dataset)
+  File "/homes/avasan/miniforge3_new/envs/sst_llama/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/homes/avasan/miniforge3_new/envs/sst_llama/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/homes/avasan/miniforge3_new/envs/sst_llama/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/homes/avasan/miniforge3_new/envs/sst_llama/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/homes/avasan/miniforge3_new/envs/sst_llama/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/lambda_stor/data/avasan/PharmacoData/data/admet_open_data/admet_labelled_data/Scripts/data.csv'
+wandb: - 0.010 MB of 0.010 MB uploadedwandb: \ 0.010 MB of 0.010 MB uploadedwandb: | 0.010 MB of 0.010 MB uploadedwandb: / 0.010 MB of 0.010 MB uploadedwandb: - 0.015 MB of 0.031 MB uploadedwandb: \ 0.019 MB of 0.031 MB uploadedwandb: 🚀 View run playful-bee-1 at: https://wandb.ai/anl-archit/Pharmacokinetic_Modeling-ModelTraining_MolFormer_Class_Scripts/runs/xs53x3yn
+wandb: ⭐️ View project at: https://wandb.ai/anl-archit/Pharmacokinetic_Modeling-ModelTraining_MolFormer_Class_Scripts
+wandb: Synced 6 W&B file(s), 0 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240522_022416-xs53x3yn/logs

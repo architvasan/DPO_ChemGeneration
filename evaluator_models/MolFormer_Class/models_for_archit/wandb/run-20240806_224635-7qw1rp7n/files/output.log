@@ -1,0 +1,24 @@
+
+  0%|                                                                                                                                                                        | 0/20 [00:00<?, ?it/s]/lus/eagle/projects/datascience/lvairus/envs/sst/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+  5%|████████                                                                                                                                                        | 1/20 [00:38<12:09, 38.39s/it]/lus/eagle/projects/datascience/lvairus/envs/sst/lib/python3.11/site-packages/wandb/wandb_torch.py:193: UserWarning: The torch.cuda.*DtypeTensor constructors are no longer recommended. It's best to use methods such as torch.tensor(data, dtype=*, device='cuda') to create tensors. (Triggered internally at /soft/applications/conda/2024-04-29/pytorch/torch/csrc/tensor/python_tensor.cpp:78.)
+  check = torch.cuda.FloatTensor(1).fill_(0)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [12:41<00:00, 38.06s/it]

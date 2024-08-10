@@ -1,0 +1,23 @@
+
+
+
+
+
+
+
+
+
+
+ 45%|████████████████████████████████████████████████████████████████████████                                                                                        | 9/20 [00:59<01:08,  6.21s/it]/lus/eagle/projects/datascience/lvairus/envs/sst/lib/python3.11/site-packages/wandb/wandb_torch.py:193: UserWarning: The torch.cuda.*DtypeTensor constructors are no longer recommended. It's best to use methods such as torch.tensor(data, dtype=*, device='cuda') to create tensors. (Triggered internally at /soft/applications/conda/2024-04-29/pytorch/torch/csrc/tensor/python_tensor.cpp:78.)
+  check = torch.cuda.FloatTensor(1).fill_(0)
+
+
+
+
+
+
+
+
+
+
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [02:05<00:00,  6.28s/it]

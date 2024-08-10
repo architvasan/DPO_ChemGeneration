@@ -1,0 +1,87 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.11
+    framework: huggingface
+    huggingface_version: 4.40.1
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.11.8
+    start_time: 1722984395.737638
+    t:
+      1:
+      - 1
+      - 5
+      - 11
+      - 12
+      - 49
+      - 53
+      - 55
+      2:
+      - 1
+      - 5
+      - 11
+      - 12
+      - 49
+      - 53
+      - 55
+      - 71
+      3:
+      - 1
+      - 16
+      - 23
+      4: 3.11.8
+      5: 0.13.11
+      6: 4.40.1
+      8:
+      - 5
+actfxn:
+  desc: null
+  value: gelu
+batch_size:
+  desc: null
+  value: 128
+dataset:
+  desc: null
+  value: data/CYP450/CYP1A2.csv
+emb_size:
+  desc: null
+  value: 256
+epochs:
+  desc: null
+  value: 20
+init_group:
+  desc: null
+  value: CYP1A2
+init_notes:
+  desc: null
+  value: CYP1A2
+init_project:
+  desc: null
+  value: TOXRIC
+input_size:
+  desc: null
+  value: 768
+labelcol:
+  desc: null
+  value: Tox
+linear_type:
+  desc: null
+  value: xavier
+lr:
+  desc: null
+  value: 0.0001
+output_size:
+  desc: null
+  value: 1
+seed_idx:
+  desc: null
+  value: 0
+smilescol:
+  desc: null
+  value: SMILES
+testprop:
+  desc: null
+  value: 0.2

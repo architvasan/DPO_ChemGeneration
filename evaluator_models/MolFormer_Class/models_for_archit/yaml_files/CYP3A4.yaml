@@ -1,0 +1,19 @@
+init_project: "TOXRIC"
+init_group: "CYP3A4"
+init_notes: "CYP3A4"
+dataset: "data/CYP450/CYP3A4.csv"
+seed_idx: 0
+epochs: 20
+batch_size: 128
+lr: 0.0001
+testprop: 0.2
+input_size: 768
+emb_size: 512
+output_size: 1
+actfxn: "selu"
+linear_type: "ortho"
+smilescol: "SMILES"
+labelcol: "Tox"
+# should get best f1 = 0.7939
+# link to sweep: https://wandb.ai/lvairusorg/Toxric/sweeps/u7in9e5e
+# link to best run: https://wandb.ai/lvairusorg/Toxric/runs/ualxbdsi

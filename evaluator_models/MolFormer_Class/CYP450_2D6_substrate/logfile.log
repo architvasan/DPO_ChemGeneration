@@ -1,0 +1,897 @@
+num_of_examples 1 loss: 0.06768917441368102 %_data_trained : 0.0
+num_of_examples 81 loss: 0.3380990743637085 %_data_trained : 0.5423728813559322
+num_of_examples 161 loss: 0.3372017085552216 %_data_trained : 1.0847457627118644
+num_of_examples 241 loss: 0.33735405206680297 %_data_trained : 1.6271186440677965
+num_of_examples 321 loss: 0.3336431264877319 %_data_trained : 2.169491525423729
+num_of_examples 401 loss: 0.3342317044734955 %_data_trained : 2.711864406779661
+num_of_examples 481 loss: 0.33337305188179017 %_data_trained : 3.254237288135593
+num_of_examples 561 loss: 0.3314544379711151 %_data_trained : 3.7966101694915255
+num_of_examples 641 loss: 0.32673675417900083 %_data_trained : 4.338983050847458
+num_of_examples 721 loss: 0.3305863380432129 %_data_trained : 4.88135593220339
+num_of_examples 801 loss: 0.31919358372688295 %_data_trained : 5.423728813559322
+num_of_examples 881 loss: 0.3298438608646393 %_data_trained : 5.966101694915254
+num_of_examples 961 loss: 0.32224583625793457 %_data_trained : 6.508474576271186
+num_of_examples 1041 loss: 0.3184220254421234 %_data_trained : 7.0508474576271185
+num_of_examples 1121 loss: 0.3094935894012451 %_data_trained : 7.593220338983051
+num_of_examples 1201 loss: 0.324468719959259 %_data_trained : 8.135593220338983
+num_of_examples 1281 loss: 0.31614057421684266 %_data_trained : 8.677966101694915
+num_of_examples 1361 loss: 0.3108315527439117 %_data_trained : 9.220338983050848
+num_of_examples 1441 loss: 0.300711452960968 %_data_trained : 9.76271186440678
+  num_of_examples 1 test_loss: 0.006333709955215454
+Test auc: 0.7733082706766917
+Confusion Matrix:
+ [[285   0]
+ [ 84   0]]
+num_of_examples 1 loss: 0.06322057247161865 %_data_trained : 0.0
+num_of_examples 81 loss: 0.28380990624427793 %_data_trained : 0.5423728813559322
+num_of_examples 161 loss: 0.2922013163566589 %_data_trained : 1.0847457627118644
+num_of_examples 241 loss: 0.30787092447280884 %_data_trained : 1.6271186440677965
+num_of_examples 321 loss: 0.28536444902420044 %_data_trained : 2.169491525423729
+num_of_examples 401 loss: 0.2908929049968719 %_data_trained : 2.711864406779661
+num_of_examples 481 loss: 0.29643469452857973 %_data_trained : 3.254237288135593
+num_of_examples 561 loss: 0.28650338649749757 %_data_trained : 3.7966101694915255
+num_of_examples 641 loss: 0.2848940998315811 %_data_trained : 4.338983050847458
+num_of_examples 721 loss: 0.2897931396961212 %_data_trained : 4.88135593220339
+num_of_examples 801 loss: 0.2816906362771988 %_data_trained : 5.423728813559322
+num_of_examples 881 loss: 0.299337637424469 %_data_trained : 5.966101694915254
+num_of_examples 961 loss: 0.2779890239238739 %_data_trained : 6.508474576271186
+num_of_examples 1041 loss: 0.2741480529308319 %_data_trained : 7.0508474576271185
+num_of_examples 1121 loss: 0.23403908014297486 %_data_trained : 7.593220338983051
+num_of_examples 1201 loss: 0.2505616873502731 %_data_trained : 8.135593220338983
+num_of_examples 1281 loss: 0.2755700945854187 %_data_trained : 8.677966101694915
+num_of_examples 1361 loss: 0.27282528579235077 %_data_trained : 9.220338983050848
+num_of_examples 1441 loss: 0.23950553238391875 %_data_trained : 9.76271186440678
+  num_of_examples 1 test_loss: 0.005933396816253662
+Test auc: 0.7975772765246449
+Confusion Matrix:
+ [[285   0]
+ [ 84   0]]
+num_of_examples 1 loss: 0.04685513377189636 %_data_trained : 0.0
+num_of_examples 81 loss: 0.2723475068807602 %_data_trained : 0.5423728813559322
+num_of_examples 161 loss: 0.2708455264568329 %_data_trained : 1.0847457627118644
+num_of_examples 241 loss: 0.2775795519351959 %_data_trained : 1.6271186440677965
+num_of_examples 321 loss: 0.25315133333206175 %_data_trained : 2.169491525423729
+num_of_examples 401 loss: 0.26506507992744444 %_data_trained : 2.711864406779661
+num_of_examples 481 loss: 0.25572886168956754 %_data_trained : 3.254237288135593
+num_of_examples 561 loss: 0.2484700620174408 %_data_trained : 3.7966101694915255
+num_of_examples 641 loss: 0.27713934481143954 %_data_trained : 4.338983050847458
+num_of_examples 721 loss: 0.2508703082799911 %_data_trained : 4.88135593220339
+num_of_examples 801 loss: 0.2629086345434189 %_data_trained : 5.423728813559322
+num_of_examples 881 loss: 0.2595664352178574 %_data_trained : 5.966101694915254
+num_of_examples 961 loss: 0.26874529719352724 %_data_trained : 6.508474576271186
+num_of_examples 1041 loss: 0.25132966637611387 %_data_trained : 7.0508474576271185
+num_of_examples 1121 loss: 0.24173646569252014 %_data_trained : 7.593220338983051
+num_of_examples 1201 loss: 0.27092592120170594 %_data_trained : 8.135593220338983
+num_of_examples 1281 loss: 0.26295304894447324 %_data_trained : 8.677966101694915
+num_of_examples 1361 loss: 0.2400261014699936 %_data_trained : 9.220338983050848
+num_of_examples 1441 loss: 0.23748618960380555 %_data_trained : 9.76271186440678
+  num_of_examples 1 test_loss: 0.005902986526489257
+Test auc: 0.8179197994987468
+Confusion Matrix:
+ [[285   0]
+ [ 84   0]]
+num_of_examples 1 loss: 0.04441084563732147 %_data_trained : 0.0
+num_of_examples 81 loss: 0.262956303358078 %_data_trained : 0.5423728813559322
+num_of_examples 161 loss: 0.2678036093711853 %_data_trained : 1.0847457627118644
+num_of_examples 241 loss: 0.2692606270313263 %_data_trained : 1.6271186440677965
+num_of_examples 321 loss: 0.266912642121315 %_data_trained : 2.169491525423729
+num_of_examples 401 loss: 0.26217044293880465 %_data_trained : 2.711864406779661
+num_of_examples 481 loss: 0.24221531748771669 %_data_trained : 3.254237288135593
+num_of_examples 561 loss: 0.27305935621261596 %_data_trained : 3.7966101694915255
+num_of_examples 641 loss: 0.23952548205852509 %_data_trained : 4.338983050847458
+num_of_examples 721 loss: 0.2794936656951904 %_data_trained : 4.88135593220339
+num_of_examples 801 loss: 0.24369228184223174 %_data_trained : 5.423728813559322
+num_of_examples 881 loss: 0.22219461798667908 %_data_trained : 5.966101694915254
+num_of_examples 961 loss: 0.26172697842121123 %_data_trained : 6.508474576271186
+num_of_examples 1041 loss: 0.2611997753381729 %_data_trained : 7.0508474576271185
+num_of_examples 1121 loss: 0.24428142607212067 %_data_trained : 7.593220338983051
+num_of_examples 1201 loss: 0.2242290884256363 %_data_trained : 8.135593220338983
+num_of_examples 1281 loss: 0.2606297850608826 %_data_trained : 8.677966101694915
+num_of_examples 1361 loss: 0.2412597954273224 %_data_trained : 9.220338983050848
+num_of_examples 1441 loss: 0.25791009068489074 %_data_trained : 9.76271186440678
+  num_of_examples 1 test_loss: 0.005786945819854736
+Test auc: 0.8331662489557226
+Confusion Matrix:
+ [[285   0]
+ [ 84   0]]
+num_of_examples 1 loss: 0.051970052719116214 %_data_trained : 0.0
+num_of_examples 81 loss: 0.2512706875801086 %_data_trained : 0.5423728813559322
+num_of_examples 161 loss: 0.2423763543367386 %_data_trained : 1.0847457627118644
+num_of_examples 241 loss: 0.2801259756088257 %_data_trained : 1.6271186440677965
+num_of_examples 321 loss: 0.2185679167509079 %_data_trained : 2.169491525423729
+num_of_examples 401 loss: 0.2698634326457977 %_data_trained : 2.711864406779661
+num_of_examples 481 loss: 0.22602455019950868 %_data_trained : 3.254237288135593
+num_of_examples 561 loss: 0.26316174268722536 %_data_trained : 3.7966101694915255
+num_of_examples 641 loss: 0.25924959480762483 %_data_trained : 4.338983050847458
+num_of_examples 721 loss: 0.2541399598121643 %_data_trained : 4.88135593220339
+num_of_examples 801 loss: 0.2274876594543457 %_data_trained : 5.423728813559322
+num_of_examples 881 loss: 0.25614921748638153 %_data_trained : 5.966101694915254
+num_of_examples 961 loss: 0.25367666184902193 %_data_trained : 6.508474576271186
+num_of_examples 1041 loss: 0.24209223985671996 %_data_trained : 7.0508474576271185
+num_of_examples 1121 loss: 0.2449124664068222 %_data_trained : 7.593220338983051
+num_of_examples 1201 loss: 0.24681336581707 %_data_trained : 8.135593220338983
+num_of_examples 1281 loss: 0.2439726322889328 %_data_trained : 8.677966101694915
+num_of_examples 1361 loss: 0.244615039229393 %_data_trained : 9.220338983050848
+num_of_examples 1441 loss: 0.24683897495269774 %_data_trained : 9.76271186440678
+  num_of_examples 1 test_loss: 0.005610706806182861
+Test auc: 0.8471595655806183
+Confusion Matrix:
+ [[285   0]
+ [ 84   0]]
+num_of_examples 1 loss: 0.058349442481994626 %_data_trained : 0.0
+num_of_examples 81 loss: 0.2546340525150299 %_data_trained : 0.5423728813559322
+num_of_examples 161 loss: 0.2422308325767517 %_data_trained : 1.0847457627118644
+num_of_examples 241 loss: 0.2625125527381897 %_data_trained : 1.6271186440677965
+num_of_examples 321 loss: 0.23984446823596955 %_data_trained : 2.169491525423729
+num_of_examples 401 loss: 0.22700192928314208 %_data_trained : 2.711864406779661
+num_of_examples 481 loss: 0.2522259443998337 %_data_trained : 3.254237288135593
+num_of_examples 561 loss: 0.2356827974319458 %_data_trained : 3.7966101694915255
+num_of_examples 641 loss: 0.24846930503845216 %_data_trained : 4.338983050847458
+num_of_examples 721 loss: 0.23884228765964508 %_data_trained : 4.88135593220339
+num_of_examples 801 loss: 0.26834220588207247 %_data_trained : 5.423728813559322
+num_of_examples 881 loss: 0.23476881980895997 %_data_trained : 5.966101694915254
+num_of_examples 961 loss: 0.20849754214286803 %_data_trained : 6.508474576271186
+num_of_examples 1041 loss: 0.22803106904029846 %_data_trained : 7.0508474576271185
+num_of_examples 1121 loss: 0.23557317852973939 %_data_trained : 7.593220338983051
+num_of_examples 1201 loss: 0.24612339735031127 %_data_trained : 8.135593220338983
+num_of_examples 1281 loss: 0.2632157325744629 %_data_trained : 8.677966101694915
+num_of_examples 1361 loss: 0.22937551736831666 %_data_trained : 9.220338983050848
+num_of_examples 1441 loss: 0.24617827236652373 %_data_trained : 9.76271186440678
+  num_of_examples 1 test_loss: 0.00545015811920166
+Test auc: 0.8581035923141187
+Confusion Matrix:
+ [[285   0]
+ [ 84   0]]
+num_of_examples 1 loss: 0.054543709754943846 %_data_trained : 0.0
+num_of_examples 81 loss: 0.24063506424427034 %_data_trained : 0.5423728813559322
+num_of_examples 161 loss: 0.24247386753559114 %_data_trained : 1.0847457627118644
+num_of_examples 241 loss: 0.23101111352443696 %_data_trained : 1.6271186440677965
+num_of_examples 321 loss: 0.22163235545158386 %_data_trained : 2.169491525423729
+num_of_examples 401 loss: 0.2221888303756714 %_data_trained : 2.711864406779661
+num_of_examples 481 loss: 0.23916829824447633 %_data_trained : 3.254237288135593
+num_of_examples 561 loss: 0.23044241666793824 %_data_trained : 3.7966101694915255
+num_of_examples 641 loss: 0.24050650000572205 %_data_trained : 4.338983050847458
+num_of_examples 721 loss: 0.2211381494998932 %_data_trained : 4.88135593220339
+num_of_examples 801 loss: 0.2374090790748596 %_data_trained : 5.423728813559322
+num_of_examples 881 loss: 0.2531027317047119 %_data_trained : 5.966101694915254
+num_of_examples 961 loss: 0.2310708522796631 %_data_trained : 6.508474576271186
+num_of_examples 1041 loss: 0.23920848667621614 %_data_trained : 7.0508474576271185
+num_of_examples 1121 loss: 0.24381412863731383 %_data_trained : 7.593220338983051
+num_of_examples 1201 loss: 0.23342872262001038 %_data_trained : 8.135593220338983
+num_of_examples 1281 loss: 0.25875883400440214 %_data_trained : 8.677966101694915
+num_of_examples 1361 loss: 0.24912460744380951 %_data_trained : 9.220338983050848
+num_of_examples 1441 loss: 0.2366085469722748 %_data_trained : 9.76271186440678
+  num_of_examples 1 test_loss: 0.005343509912490845
+Test auc: 0.8653717627401838
+Confusion Matrix:
+ [[285   0]
+ [ 81   3]]
+num_of_examples 1 loss: 0.04747190475463867 %_data_trained : 0.0
+num_of_examples 81 loss: 0.21348802745342255 %_data_trained : 0.5423728813559322
+num_of_examples 161 loss: 0.2443294942378998 %_data_trained : 1.0847457627118644
+num_of_examples 241 loss: 0.2107017606496811 %_data_trained : 1.6271186440677965
+num_of_examples 321 loss: 0.23122491240501403 %_data_trained : 2.169491525423729
+num_of_examples 401 loss: 0.2385629802942276 %_data_trained : 2.711864406779661
+num_of_examples 481 loss: 0.23331141769886016 %_data_trained : 3.254237288135593
+num_of_examples 561 loss: 0.24547420144081117 %_data_trained : 3.7966101694915255
+num_of_examples 641 loss: 0.2362813651561737 %_data_trained : 4.338983050847458
+num_of_examples 721 loss: 0.23953508138656615 %_data_trained : 4.88135593220339
+num_of_examples 801 loss: 0.24890418648719786 %_data_trained : 5.423728813559322
+num_of_examples 881 loss: 0.21607761085033417 %_data_trained : 5.966101694915254
+num_of_examples 961 loss: 0.2382207602262497 %_data_trained : 6.508474576271186
+num_of_examples 1041 loss: 0.20733281075954438 %_data_trained : 7.0508474576271185
+num_of_examples 1121 loss: 0.2308688282966614 %_data_trained : 7.593220338983051
+num_of_examples 1201 loss: 0.25026273131370547 %_data_trained : 8.135593220338983
+num_of_examples 1281 loss: 0.22578892707824708 %_data_trained : 8.677966101694915
+num_of_examples 1361 loss: 0.24272324442863463 %_data_trained : 9.220338983050848
+num_of_examples 1441 loss: 0.2561793625354767 %_data_trained : 9.76271186440678
+  num_of_examples 1 test_loss: 0.005246098041534424
+Test auc: 0.8728905597326649
+Confusion Matrix:
+ [[271  14]
+ [ 44  40]]
+num_of_examples 1 loss: 0.04897336363792419 %_data_trained : 0.0
+num_of_examples 81 loss: 0.2468485176563263 %_data_trained : 0.5423728813559322
+num_of_examples 161 loss: 0.21639235317707062 %_data_trained : 1.0847457627118644
+num_of_examples 241 loss: 0.2304279625415802 %_data_trained : 1.6271186440677965
+num_of_examples 321 loss: 0.23527031540870666 %_data_trained : 2.169491525423729
+num_of_examples 401 loss: 0.2245524913072586 %_data_trained : 2.711864406779661
+num_of_examples 481 loss: 0.24200488328933717 %_data_trained : 3.254237288135593
+num_of_examples 561 loss: 0.23138848543167115 %_data_trained : 3.7966101694915255
+num_of_examples 641 loss: 0.2354227989912033 %_data_trained : 4.338983050847458
+num_of_examples 721 loss: 0.23959020972251893 %_data_trained : 4.88135593220339
+num_of_examples 801 loss: 0.2271590918302536 %_data_trained : 5.423728813559322
+num_of_examples 881 loss: 0.23458183705806732 %_data_trained : 5.966101694915254
+num_of_examples 961 loss: 0.2361336827278137 %_data_trained : 6.508474576271186
+num_of_examples 1041 loss: 0.23426350355148315 %_data_trained : 7.0508474576271185
+num_of_examples 1121 loss: 0.21932680904865265 %_data_trained : 7.593220338983051
+num_of_examples 1201 loss: 0.21332387626171112 %_data_trained : 8.135593220338983
+num_of_examples 1281 loss: 0.21387386918067933 %_data_trained : 8.677966101694915
+num_of_examples 1361 loss: 0.23825427293777465 %_data_trained : 9.220338983050848
+num_of_examples 1441 loss: 0.21753218472003938 %_data_trained : 9.76271186440678
+  num_of_examples 1 test_loss: 0.005231778621673584
+Test auc: 0.8794068504594821
+Confusion Matrix:
+ [[270  15]
+ [ 39  45]]
+num_of_examples 1 loss: 0.04843931794166565 %_data_trained : 0.0
+num_of_examples 81 loss: 0.2063618391752243 %_data_trained : 0.5423728813559322
+num_of_examples 161 loss: 0.21647548377513887 %_data_trained : 1.0847457627118644
+num_of_examples 241 loss: 0.22941395044326782 %_data_trained : 1.6271186440677965
+num_of_examples 321 loss: 0.22934624552726746 %_data_trained : 2.169491525423729
+num_of_examples 401 loss: 0.2421005666255951 %_data_trained : 2.711864406779661
+num_of_examples 481 loss: 0.22855983972549437 %_data_trained : 3.254237288135593
+num_of_examples 561 loss: 0.22496317327022552 %_data_trained : 3.7966101694915255
+num_of_examples 641 loss: 0.24059926271438598 %_data_trained : 4.338983050847458
+num_of_examples 721 loss: 0.2142106205224991 %_data_trained : 4.88135593220339
+num_of_examples 801 loss: 0.21634178161621093 %_data_trained : 5.423728813559322
+num_of_examples 881 loss: 0.22546216547489167 %_data_trained : 5.966101694915254
+num_of_examples 961 loss: 0.23524486124515534 %_data_trained : 6.508474576271186
+num_of_examples 1041 loss: 0.2187887668609619 %_data_trained : 7.0508474576271185
+num_of_examples 1121 loss: 0.2206155925989151 %_data_trained : 7.593220338983051
+num_of_examples 1201 loss: 0.21295613646507264 %_data_trained : 8.135593220338983
+num_of_examples 1281 loss: 0.22318358719348907 %_data_trained : 8.677966101694915
+num_of_examples 1361 loss: 0.24445182383060454 %_data_trained : 9.220338983050848
+num_of_examples 1441 loss: 0.22564219534397126 %_data_trained : 9.76271186440678
+  num_of_examples 1 test_loss: 0.005116151571273804
+Test auc: 0.8836675020885547
+Confusion Matrix:
+ [[269  16]
+ [ 35  49]]
+num_of_examples 1 loss: 0.044358941912651065 %_data_trained : 0.0
+num_of_examples 81 loss: 0.21498626470565796 %_data_trained : 0.5423728813559322
+num_of_examples 161 loss: 0.20579383969306947 %_data_trained : 1.0847457627118644
+num_of_examples 241 loss: 0.21335747838020325 %_data_trained : 1.6271186440677965
+num_of_examples 321 loss: 0.218462535738945 %_data_trained : 2.169491525423729
+num_of_examples 401 loss: 0.20886413455009462 %_data_trained : 2.711864406779661
+num_of_examples 481 loss: 0.23308677971363068 %_data_trained : 3.254237288135593
+num_of_examples 561 loss: 0.24325045943260193 %_data_trained : 3.7966101694915255
+num_of_examples 641 loss: 0.2043517380952835 %_data_trained : 4.338983050847458
+num_of_examples 721 loss: 0.22025833427906036 %_data_trained : 4.88135593220339
+num_of_examples 801 loss: 0.2657140016555786 %_data_trained : 5.423728813559322
+num_of_examples 881 loss: 0.22140394747257233 %_data_trained : 5.966101694915254
+num_of_examples 961 loss: 0.1935009628534317 %_data_trained : 6.508474576271186
+num_of_examples 1041 loss: 0.21881256103515626 %_data_trained : 7.0508474576271185
+num_of_examples 1121 loss: 0.2363578498363495 %_data_trained : 7.593220338983051
+num_of_examples 1201 loss: 0.22887490391731263 %_data_trained : 8.135593220338983
+num_of_examples 1281 loss: 0.23046364188194274 %_data_trained : 8.677966101694915
+num_of_examples 1361 loss: 0.2059137523174286 %_data_trained : 9.220338983050848
+num_of_examples 1441 loss: 0.212439626455307 %_data_trained : 9.76271186440678
+  num_of_examples 1 test_loss: 0.004924034178256989
+Test auc: 0.886466165413534
+Confusion Matrix:
+ [[263  22]
+ [ 33  51]]
+num_of_examples 1 loss: 0.03715536594390869 %_data_trained : 0.0
+num_of_examples 81 loss: 0.20460281372070313 %_data_trained : 0.5423728813559322
+num_of_examples 161 loss: 0.20463676750659943 %_data_trained : 1.0847457627118644
+num_of_examples 241 loss: 0.21964333951473236 %_data_trained : 1.6271186440677965
+num_of_examples 321 loss: 0.23592244386672973 %_data_trained : 2.169491525423729
+num_of_examples 401 loss: 0.22836125791072845 %_data_trained : 2.711864406779661
+num_of_examples 481 loss: 0.20597503781318666 %_data_trained : 3.254237288135593
+num_of_examples 561 loss: 0.2042410522699356 %_data_trained : 3.7966101694915255
+num_of_examples 641 loss: 0.1938324511051178 %_data_trained : 4.338983050847458
+num_of_examples 721 loss: 0.2031089574098587 %_data_trained : 4.88135593220339
+num_of_examples 801 loss: 0.21500485241413117 %_data_trained : 5.423728813559322
+num_of_examples 881 loss: 0.20456138551235198 %_data_trained : 5.966101694915254
+num_of_examples 961 loss: 0.2216206192970276 %_data_trained : 6.508474576271186
+num_of_examples 1041 loss: 0.2041172832250595 %_data_trained : 7.0508474576271185
+num_of_examples 1121 loss: 0.2083247870206833 %_data_trained : 7.593220338983051
+num_of_examples 1201 loss: 0.2264065682888031 %_data_trained : 8.135593220338983
+num_of_examples 1281 loss: 0.2245345115661621 %_data_trained : 8.677966101694915
+num_of_examples 1361 loss: 0.23690788447856903 %_data_trained : 9.220338983050848
+num_of_examples 1441 loss: 0.24045562744140625 %_data_trained : 9.76271186440678
+  num_of_examples 1 test_loss: 0.004832789301872253
+Test auc: 0.8879699248120301
+Confusion Matrix:
+ [[262  23]
+ [ 31  53]]
+num_of_examples 1 loss: 0.04774056077003479 %_data_trained : 0.0
+num_of_examples 81 loss: 0.23028171956539153 %_data_trained : 0.5423728813559322
+num_of_examples 161 loss: 0.20960344076156617 %_data_trained : 1.0847457627118644
+num_of_examples 241 loss: 0.20519300699234008 %_data_trained : 1.6271186440677965
+num_of_examples 321 loss: 0.2067394196987152 %_data_trained : 2.169491525423729
+num_of_examples 401 loss: 0.2139493405818939 %_data_trained : 2.711864406779661
+num_of_examples 481 loss: 0.21424576342105867 %_data_trained : 3.254237288135593
+num_of_examples 561 loss: 0.23273109197616576 %_data_trained : 3.7966101694915255
+num_of_examples 641 loss: 0.20368703305721284 %_data_trained : 4.338983050847458
+num_of_examples 721 loss: 0.2112608790397644 %_data_trained : 4.88135593220339
+num_of_examples 801 loss: 0.21648125648498534 %_data_trained : 5.423728813559322
+num_of_examples 881 loss: 0.22786428928375244 %_data_trained : 5.966101694915254
+num_of_examples 961 loss: 0.20132865905761718 %_data_trained : 6.508474576271186
+num_of_examples 1041 loss: 0.19553786218166352 %_data_trained : 7.0508474576271185
+num_of_examples 1121 loss: 0.1998486965894699 %_data_trained : 7.593220338983051
+num_of_examples 1201 loss: 0.22217519581317902 %_data_trained : 8.135593220338983
+num_of_examples 1281 loss: 0.21242404282093047 %_data_trained : 8.677966101694915
+num_of_examples 1361 loss: 0.22510392367839813 %_data_trained : 9.220338983050848
+num_of_examples 1441 loss: 0.19606983065605163 %_data_trained : 9.76271186440678
+  num_of_examples 1 test_loss: 0.004775717556476593
+Test auc: 0.8893483709273182
+Confusion Matrix:
+ [[262  23]
+ [ 32  52]]
+num_of_examples 1 loss: 0.03474530577659607 %_data_trained : 0.0
+num_of_examples 81 loss: 0.1999527096748352 %_data_trained : 0.5423728813559322
+num_of_examples 161 loss: 0.22458550333976746 %_data_trained : 1.0847457627118644
+num_of_examples 241 loss: 0.1867120623588562 %_data_trained : 1.6271186440677965
+num_of_examples 321 loss: 0.21236121356487275 %_data_trained : 2.169491525423729
+num_of_examples 401 loss: 0.19058827459812164 %_data_trained : 2.711864406779661
+num_of_examples 481 loss: 0.21544381380081176 %_data_trained : 3.254237288135593
+num_of_examples 561 loss: 0.23154136836528777 %_data_trained : 3.7966101694915255
+num_of_examples 641 loss: 0.21506659388542176 %_data_trained : 4.338983050847458
+num_of_examples 721 loss: 0.2094043254852295 %_data_trained : 4.88135593220339
+num_of_examples 801 loss: 0.22379862070083617 %_data_trained : 5.423728813559322
+num_of_examples 881 loss: 0.19345910847187042 %_data_trained : 5.966101694915254
+num_of_examples 961 loss: 0.21931197345256806 %_data_trained : 6.508474576271186
+num_of_examples 1041 loss: 0.2087665468454361 %_data_trained : 7.0508474576271185
+num_of_examples 1121 loss: 0.2114122450351715 %_data_trained : 7.593220338983051
+num_of_examples 1201 loss: 0.20082274079322815 %_data_trained : 8.135593220338983
+num_of_examples 1281 loss: 0.20999772548675538 %_data_trained : 8.677966101694915
+num_of_examples 1361 loss: 0.2078966349363327 %_data_trained : 9.220338983050848
+num_of_examples 1441 loss: 0.21029284596443176 %_data_trained : 9.76271186440678
+  num_of_examples 1 test_loss: 0.004726101756095886
+Test auc: 0.8897243107769424
+Confusion Matrix:
+ [[262  23]
+ [ 31  53]]
+num_of_examples 1 loss: 0.03746328353881836 %_data_trained : 0.0
+num_of_examples 81 loss: 0.20174334049224854 %_data_trained : 0.5423728813559322
+num_of_examples 161 loss: 0.21128313839435578 %_data_trained : 1.0847457627118644
+num_of_examples 241 loss: 0.21063455045223237 %_data_trained : 1.6271186440677965
+num_of_examples 321 loss: 0.21168835759162902 %_data_trained : 2.169491525423729
+num_of_examples 401 loss: 0.20317099690437318 %_data_trained : 2.711864406779661
+num_of_examples 481 loss: 0.20314904153347016 %_data_trained : 3.254237288135593
+num_of_examples 561 loss: 0.19987501502037047 %_data_trained : 3.7966101694915255
+num_of_examples 641 loss: 0.20627194941043853 %_data_trained : 4.338983050847458
+num_of_examples 721 loss: 0.206161966919899 %_data_trained : 4.88135593220339
+num_of_examples 801 loss: 0.2013309270143509 %_data_trained : 5.423728813559322
+num_of_examples 881 loss: 0.20271987915039064 %_data_trained : 5.966101694915254
+num_of_examples 961 loss: 0.2117531418800354 %_data_trained : 6.508474576271186
+num_of_examples 1041 loss: 0.19900753796100618 %_data_trained : 7.0508474576271185
+num_of_examples 1121 loss: 0.19560884237289428 %_data_trained : 7.593220338983051
+num_of_examples 1201 loss: 0.2154642313718796 %_data_trained : 8.135593220338983
+num_of_examples 1281 loss: 0.20027904510498046 %_data_trained : 8.677966101694915
+num_of_examples 1361 loss: 0.21567538380622864 %_data_trained : 9.220338983050848
+num_of_examples 1441 loss: 0.22784302830696107 %_data_trained : 9.76271186440678
+  num_of_examples 1 test_loss: 0.004696624577045441
+Test auc: 0.8901837928153717
+Confusion Matrix:
+ [[266  19]
+ [ 32  52]]
+num_of_examples 1 loss: 0.036203163862228396 %_data_trained : 0.0
+num_of_examples 81 loss: 0.21367330849170685 %_data_trained : 0.5423728813559322
+num_of_examples 161 loss: 0.21288707256317138 %_data_trained : 1.0847457627118644
+num_of_examples 241 loss: 0.19951181709766388 %_data_trained : 1.6271186440677965
+num_of_examples 321 loss: 0.2011525124311447 %_data_trained : 2.169491525423729
+num_of_examples 401 loss: 0.19981421530246735 %_data_trained : 2.711864406779661
+num_of_examples 481 loss: 0.1989648699760437 %_data_trained : 3.254237288135593
+num_of_examples 561 loss: 0.19410980939865113 %_data_trained : 3.7966101694915255
+num_of_examples 641 loss: 0.20403062105178832 %_data_trained : 4.338983050847458
+num_of_examples 721 loss: 0.20097934007644652 %_data_trained : 4.88135593220339
+num_of_examples 801 loss: 0.18583933413028716 %_data_trained : 5.423728813559322
+num_of_examples 881 loss: 0.22540346384048462 %_data_trained : 5.966101694915254
+num_of_examples 961 loss: 0.21041448414325714 %_data_trained : 6.508474576271186
+num_of_examples 1041 loss: 0.20596279203891754 %_data_trained : 7.0508474576271185
+num_of_examples 1121 loss: 0.1924976497888565 %_data_trained : 7.593220338983051
+num_of_examples 1201 loss: 0.21203159391880036 %_data_trained : 8.135593220338983
+num_of_examples 1281 loss: 0.23424031734466552 %_data_trained : 8.677966101694915
+num_of_examples 1361 loss: 0.20585820376873015 %_data_trained : 9.220338983050848
+num_of_examples 1441 loss: 0.19713429510593414 %_data_trained : 9.76271186440678
+  num_of_examples 1 test_loss: 0.004701552987098694
+Test auc: 0.8911027568922306
+Confusion Matrix:
+ [[260  25]
+ [ 26  58]]
+num_of_examples 1 loss: 0.04838690161705017 %_data_trained : 0.0
+num_of_examples 81 loss: 0.18434390425682068 %_data_trained : 0.5423728813559322
+num_of_examples 161 loss: 0.2011639356613159 %_data_trained : 1.0847457627118644
+num_of_examples 241 loss: 0.19388096034526825 %_data_trained : 1.6271186440677965
+num_of_examples 321 loss: 0.203081351518631 %_data_trained : 2.169491525423729
+num_of_examples 401 loss: 0.21302265226840972 %_data_trained : 2.711864406779661
+num_of_examples 481 loss: 0.19564447402954102 %_data_trained : 3.254237288135593
+num_of_examples 561 loss: 0.21359265446662903 %_data_trained : 3.7966101694915255
+num_of_examples 641 loss: 0.20888193547725678 %_data_trained : 4.338983050847458
+num_of_examples 721 loss: 0.18639636039733887 %_data_trained : 4.88135593220339
+num_of_examples 801 loss: 0.22142975330352782 %_data_trained : 5.423728813559322
+num_of_examples 881 loss: 0.20744333565235137 %_data_trained : 5.966101694915254
+num_of_examples 961 loss: 0.20981853008270263 %_data_trained : 6.508474576271186
+num_of_examples 1041 loss: 0.20864650905132293 %_data_trained : 7.0508474576271185
+num_of_examples 1121 loss: 0.18267345130443574 %_data_trained : 7.593220338983051
+num_of_examples 1201 loss: 0.1972159117460251 %_data_trained : 8.135593220338983
+num_of_examples 1281 loss: 0.19594773054122924 %_data_trained : 8.677966101694915
+num_of_examples 1361 loss: 0.19699688553810119 %_data_trained : 9.220338983050848
+num_of_examples 1441 loss: 0.2226874053478241 %_data_trained : 9.76271186440678
+  num_of_examples 1 test_loss: 0.004688729643821716
+Test auc: 0.8913533834586467
+Confusion Matrix:
+ [[263  22]
+ [ 28  56]]
+num_of_examples 1 loss: 0.04505334198474884 %_data_trained : 0.0
+num_of_examples 81 loss: 0.21102853119373322 %_data_trained : 0.5423728813559322
+num_of_examples 161 loss: 0.1941450834274292 %_data_trained : 1.0847457627118644
+num_of_examples 241 loss: 0.2073524296283722 %_data_trained : 1.6271186440677965
+num_of_examples 321 loss: 0.18863231539726258 %_data_trained : 2.169491525423729
+num_of_examples 401 loss: 0.21537942588329315 %_data_trained : 2.711864406779661
+num_of_examples 481 loss: 0.19114651679992675 %_data_trained : 3.254237288135593
+num_of_examples 561 loss: 0.198285773396492 %_data_trained : 3.7966101694915255
+num_of_examples 641 loss: 0.18221113085746765 %_data_trained : 4.338983050847458
+num_of_examples 721 loss: 0.19368017315864564 %_data_trained : 4.88135593220339
+num_of_examples 801 loss: 0.22171618044376373 %_data_trained : 5.423728813559322
+num_of_examples 881 loss: 0.20853222906589508 %_data_trained : 5.966101694915254
+num_of_examples 961 loss: 0.18935718536376953 %_data_trained : 6.508474576271186
+num_of_examples 1041 loss: 0.17358919680118562 %_data_trained : 7.0508474576271185
+num_of_examples 1121 loss: 0.21000670194625853 %_data_trained : 7.593220338983051
+num_of_examples 1201 loss: 0.2245131641626358 %_data_trained : 8.135593220338983
+num_of_examples 1281 loss: 0.1835244834423065 %_data_trained : 8.677966101694915
+num_of_examples 1361 loss: 0.19063498079776764 %_data_trained : 9.220338983050848
+num_of_examples 1441 loss: 0.22300492525100707 %_data_trained : 9.76271186440678
+  num_of_examples 1 test_loss: 0.004610381722450256
+Test auc: 0.8898913951545531
+num_of_examples 1 loss: 0.033694255352020266 %_data_trained : 0.0
+num_of_examples 81 loss: 0.19645439982414245 %_data_trained : 0.5423728813559322
+num_of_examples 161 loss: 0.19651404917240142 %_data_trained : 1.0847457627118644
+num_of_examples 241 loss: 0.20730339884757995 %_data_trained : 1.6271186440677965
+num_of_examples 321 loss: 0.18088120520114898 %_data_trained : 2.169491525423729
+num_of_examples 401 loss: 0.19105902910232545 %_data_trained : 2.711864406779661
+num_of_examples 481 loss: 0.2136981338262558 %_data_trained : 3.254237288135593
+num_of_examples 561 loss: 0.1851060152053833 %_data_trained : 3.7966101694915255
+num_of_examples 641 loss: 0.18795705437660218 %_data_trained : 4.338983050847458
+num_of_examples 721 loss: 0.20832992792129518 %_data_trained : 4.88135593220339
+num_of_examples 801 loss: 0.2228274554014206 %_data_trained : 5.423728813559322
+num_of_examples 881 loss: 0.18183981478214264 %_data_trained : 5.966101694915254
+num_of_examples 961 loss: 0.19604959189891816 %_data_trained : 6.508474576271186
+num_of_examples 1041 loss: 0.2279725581407547 %_data_trained : 7.0508474576271185
+num_of_examples 1121 loss: 0.19702905416488647 %_data_trained : 7.593220338983051
+num_of_examples 1201 loss: 0.19205006957054138 %_data_trained : 8.135593220338983
+num_of_examples 1281 loss: 0.20964988470077514 %_data_trained : 8.677966101694915
+num_of_examples 1361 loss: 0.1793432742357254 %_data_trained : 9.220338983050848
+num_of_examples 1441 loss: 0.21254059970378875 %_data_trained : 9.76271186440678
+  num_of_examples 1 test_loss: 0.00466970682144165
+Test auc: 0.891186299081036
+num_of_examples 1 loss: 0.03274924457073212 %_data_trained : 0.0
+num_of_examples 81 loss: 0.18455989062786102 %_data_trained : 0.5423728813559322
+num_of_examples 161 loss: 0.19107068181037903 %_data_trained : 1.0847457627118644
+num_of_examples 241 loss: 0.20778607726097106 %_data_trained : 1.6271186440677965
+num_of_examples 321 loss: 0.19021214544773102 %_data_trained : 2.169491525423729
+num_of_examples 401 loss: 0.1881263256072998 %_data_trained : 2.711864406779661
+num_of_examples 481 loss: 0.22568854689598083 %_data_trained : 3.254237288135593
+num_of_examples 561 loss: 0.1937686175107956 %_data_trained : 3.7966101694915255
+num_of_examples 641 loss: 0.18860463798046112 %_data_trained : 4.338983050847458
+num_of_examples 721 loss: 0.20892434418201447 %_data_trained : 4.88135593220339
+num_of_examples 801 loss: 0.18334319293498993 %_data_trained : 5.423728813559322
+num_of_examples 881 loss: 0.1795593023300171 %_data_trained : 5.966101694915254
+num_of_examples 961 loss: 0.19545011222362518 %_data_trained : 6.508474576271186
+num_of_examples 1041 loss: 0.19357455670833587 %_data_trained : 7.0508474576271185
+num_of_examples 1121 loss: 0.20678381621837616 %_data_trained : 7.593220338983051
+num_of_examples 1201 loss: 0.2179088205099106 %_data_trained : 8.135593220338983
+num_of_examples 1281 loss: 0.19386302232742308 %_data_trained : 8.677966101694915
+num_of_examples 1361 loss: 0.20277132093906403 %_data_trained : 9.220338983050848
+num_of_examples 1441 loss: 0.20299961268901826 %_data_trained : 9.76271186440678
+  num_of_examples 1 test_loss: 0.004659071266651153
+Test auc: 0.8906015037593984
+num_of_examples 1 loss: 0.03988968133926392 %_data_trained : 0.0
+num_of_examples 81 loss: 0.1978215366601944 %_data_trained : 0.5423728813559322
+num_of_examples 161 loss: 0.19075415134429932 %_data_trained : 1.0847457627118644
+num_of_examples 241 loss: 0.20538271367549896 %_data_trained : 1.6271186440677965
+num_of_examples 321 loss: 0.19981771409511567 %_data_trained : 2.169491525423729
+num_of_examples 401 loss: 0.208115354180336 %_data_trained : 2.711864406779661
+num_of_examples 481 loss: 0.1852627217769623 %_data_trained : 3.254237288135593
+num_of_examples 561 loss: 0.176958829164505 %_data_trained : 3.7966101694915255
+num_of_examples 641 loss: 0.18425750732421875 %_data_trained : 4.338983050847458
+num_of_examples 721 loss: 0.1894628018140793 %_data_trained : 4.88135593220339
+num_of_examples 801 loss: 0.1857978254556656 %_data_trained : 5.423728813559322
+num_of_examples 881 loss: 0.17608998119831085 %_data_trained : 5.966101694915254
+num_of_examples 961 loss: 0.20243832767009734 %_data_trained : 6.508474576271186
+num_of_examples 1041 loss: 0.20229757726192474 %_data_trained : 7.0508474576271185
+num_of_examples 1121 loss: 0.19750759601593018 %_data_trained : 7.593220338983051
+num_of_examples 1201 loss: 0.21063373386859893 %_data_trained : 8.135593220338983
+num_of_examples 1281 loss: 0.20215917527675628 %_data_trained : 8.677966101694915
+num_of_examples 1361 loss: 0.19366207122802734 %_data_trained : 9.220338983050848
+num_of_examples 1441 loss: 0.20757025480270386 %_data_trained : 9.76271186440678
+  num_of_examples 1 test_loss: 0.004796586632728576
+Test auc: 0.889264828738513
+num_of_examples 1 loss: 0.036671459674835205 %_data_trained : 0.0
+num_of_examples 81 loss: 0.22875599265098573 %_data_trained : 0.5423728813559322
+num_of_examples 161 loss: 0.18217135965824127 %_data_trained : 1.0847457627118644
+num_of_examples 241 loss: 0.18618148267269136 %_data_trained : 1.6271186440677965
+num_of_examples 321 loss: 0.2029310166835785 %_data_trained : 2.169491525423729
+num_of_examples 401 loss: 0.1858583450317383 %_data_trained : 2.711864406779661
+num_of_examples 481 loss: 0.1994944304227829 %_data_trained : 3.254237288135593
+num_of_examples 561 loss: 0.1761067271232605 %_data_trained : 3.7966101694915255
+num_of_examples 641 loss: 0.18887893855571747 %_data_trained : 4.338983050847458
+num_of_examples 721 loss: 0.1730204254388809 %_data_trained : 4.88135593220339
+num_of_examples 801 loss: 0.2005395621061325 %_data_trained : 5.423728813559322
+num_of_examples 881 loss: 0.2296788364648819 %_data_trained : 5.966101694915254
+num_of_examples 961 loss: 0.18259690701961517 %_data_trained : 6.508474576271186
+num_of_examples 1041 loss: 0.1889795958995819 %_data_trained : 7.0508474576271185
+num_of_examples 1121 loss: 0.16913736760616302 %_data_trained : 7.593220338983051
+num_of_examples 1201 loss: 0.22098692059516906 %_data_trained : 8.135593220338983
+num_of_examples 1281 loss: 0.186433869600296 %_data_trained : 8.677966101694915
+num_of_examples 1361 loss: 0.1931347966194153 %_data_trained : 9.220338983050848
+num_of_examples 1441 loss: 0.20862712562084199 %_data_trained : 9.76271186440678
+  num_of_examples 1 test_loss: 0.004768031537532806
+Test auc: 0.8898496240601503
+num_of_examples 1 loss: 0.05036318302154541 %_data_trained : 0.0
+num_of_examples 81 loss: 0.2034542292356491 %_data_trained : 0.5423728813559322
+num_of_examples 161 loss: 0.18966487050056458 %_data_trained : 1.0847457627118644
+num_of_examples 241 loss: 0.1923350304365158 %_data_trained : 1.6271186440677965
+num_of_examples 321 loss: 0.18235083818435668 %_data_trained : 2.169491525423729
+num_of_examples 401 loss: 0.1855345606803894 %_data_trained : 2.711864406779661
+num_of_examples 481 loss: 0.22956539392471315 %_data_trained : 3.254237288135593
+num_of_examples 561 loss: 0.18966250717639924 %_data_trained : 3.7966101694915255
+num_of_examples 641 loss: 0.17900195717811584 %_data_trained : 4.338983050847458
+num_of_examples 721 loss: 0.18306854963302613 %_data_trained : 4.88135593220339
+num_of_examples 801 loss: 0.18541496098041535 %_data_trained : 5.423728813559322
+num_of_examples 881 loss: 0.19471267163753508 %_data_trained : 5.966101694915254
+num_of_examples 961 loss: 0.20015652477741241 %_data_trained : 6.508474576271186
+num_of_examples 1041 loss: 0.17251425683498384 %_data_trained : 7.0508474576271185
+num_of_examples 1121 loss: 0.1907175064086914 %_data_trained : 7.593220338983051
+num_of_examples 1201 loss: 0.18670831620693207 %_data_trained : 8.135593220338983
+num_of_examples 1281 loss: 0.1911137193441391 %_data_trained : 8.677966101694915
+num_of_examples 1361 loss: 0.19878173172473906 %_data_trained : 9.220338983050848
+num_of_examples 1441 loss: 0.19661219120025636 %_data_trained : 9.76271186440678
+  num_of_examples 1 test_loss: 0.004745667576789856
+Test auc: 0.8885964912280702
+num_of_examples 1 loss: 0.03802821636199951 %_data_trained : 0.0
+num_of_examples 81 loss: 0.20904948711395263 %_data_trained : 0.5423728813559322
+num_of_examples 161 loss: 0.1796316146850586 %_data_trained : 1.0847457627118644
+num_of_examples 241 loss: 0.1855612128973007 %_data_trained : 1.6271186440677965
+num_of_examples 321 loss: 0.22312538623809813 %_data_trained : 2.169491525423729
+num_of_examples 401 loss: 0.18783868849277496 %_data_trained : 2.711864406779661
+num_of_examples 481 loss: 0.1814110666513443 %_data_trained : 3.254237288135593
+num_of_examples 561 loss: 0.17147373855113984 %_data_trained : 3.7966101694915255
+num_of_examples 641 loss: 0.1923571616411209 %_data_trained : 4.338983050847458
+num_of_examples 721 loss: 0.17981195449829102 %_data_trained : 4.88135593220339
+num_of_examples 801 loss: 0.1724314421415329 %_data_trained : 5.423728813559322
+num_of_examples 881 loss: 0.2124055176973343 %_data_trained : 5.966101694915254
+num_of_examples 961 loss: 0.20320717990398407 %_data_trained : 6.508474576271186
+num_of_examples 1041 loss: 0.1863555908203125 %_data_trained : 7.0508474576271185
+num_of_examples 1121 loss: 0.18999618291854858 %_data_trained : 7.593220338983051
+num_of_examples 1201 loss: 0.19530579447746277 %_data_trained : 8.135593220338983
+num_of_examples 1281 loss: 0.20843779742717744 %_data_trained : 8.677966101694915
+num_of_examples 1361 loss: 0.1788621127605438 %_data_trained : 9.220338983050848
+num_of_examples 1441 loss: 0.18617435097694396 %_data_trained : 9.76271186440678
+  num_of_examples 1 test_loss: 0.004661354720592498
+Test auc: 0.889985380116959
+num_of_examples 1 loss: 0.04051215648651123 %_data_trained : 0.0
+num_of_examples 81 loss: 0.16275371611118317 %_data_trained : 0.5423728813559322
+num_of_examples 161 loss: 0.1886218547821045 %_data_trained : 1.0847457627118644
+num_of_examples 241 loss: 0.18835970461368562 %_data_trained : 1.6271186440677965
+num_of_examples 321 loss: 0.1864561140537262 %_data_trained : 2.169491525423729
+num_of_examples 401 loss: 0.20257445871829988 %_data_trained : 2.711864406779661
+num_of_examples 481 loss: 0.18880530595779418 %_data_trained : 3.254237288135593
+num_of_examples 561 loss: 0.20630119144916534 %_data_trained : 3.7966101694915255
+num_of_examples 641 loss: 0.1746266931295395 %_data_trained : 4.338983050847458
+num_of_examples 721 loss: 0.18677572011947632 %_data_trained : 4.88135593220339
+num_of_examples 801 loss: 0.19610187411308289 %_data_trained : 5.423728813559322
+num_of_examples 881 loss: 0.18777957558631897 %_data_trained : 5.966101694915254
+num_of_examples 961 loss: 0.17879314720630646 %_data_trained : 6.508474576271186
+num_of_examples 1041 loss: 0.19547980427742004 %_data_trained : 7.0508474576271185
+num_of_examples 1121 loss: 0.1867450088262558 %_data_trained : 7.593220338983051
+num_of_examples 1201 loss: 0.19919499158859252 %_data_trained : 8.135593220338983
+num_of_examples 1281 loss: 0.18136260509490967 %_data_trained : 8.677966101694915
+num_of_examples 1361 loss: 0.1865786999464035 %_data_trained : 9.220338983050848
+num_of_examples 1441 loss: 0.1930661678314209 %_data_trained : 9.76271186440678
+  num_of_examples 1 test_loss: 0.004648770093917847
+Test auc: 0.8901420217209691
+num_of_examples 1 loss: 0.031567221879959105 %_data_trained : 0.0
+num_of_examples 81 loss: 0.20452966094017028 %_data_trained : 0.5423728813559322
+num_of_examples 161 loss: 0.17538749277591706 %_data_trained : 1.0847457627118644
+num_of_examples 241 loss: 0.1675693929195404 %_data_trained : 1.6271186440677965
+num_of_examples 321 loss: 0.19464069604873657 %_data_trained : 2.169491525423729
+num_of_examples 401 loss: 0.18163467943668365 %_data_trained : 2.711864406779661
+num_of_examples 481 loss: 0.1876168429851532 %_data_trained : 3.254237288135593
+num_of_examples 561 loss: 0.18673593699932098 %_data_trained : 3.7966101694915255
+num_of_examples 641 loss: 0.19519942104816437 %_data_trained : 4.338983050847458
+num_of_examples 721 loss: 0.19083752036094664 %_data_trained : 4.88135593220339
+num_of_examples 801 loss: 0.1788488507270813 %_data_trained : 5.423728813559322
+num_of_examples 881 loss: 0.18474096953868865 %_data_trained : 5.966101694915254
+num_of_examples 961 loss: 0.18128025829792022 %_data_trained : 6.508474576271186
+num_of_examples 1041 loss: 0.20350683927536012 %_data_trained : 7.0508474576271185
+num_of_examples 1121 loss: 0.19194011390209198 %_data_trained : 7.593220338983051
+num_of_examples 1201 loss: 0.19227538704872132 %_data_trained : 8.135593220338983
+num_of_examples 1281 loss: 0.1723545640707016 %_data_trained : 8.677966101694915
+num_of_examples 1361 loss: 0.2087759017944336 %_data_trained : 9.220338983050848
+num_of_examples 1441 loss: 0.17887612879276277 %_data_trained : 9.76271186440678
+  num_of_examples 1 test_loss: 0.004747673869132996
+Test auc: 0.8905075187969925
+num_of_examples 1 loss: 0.03767317533493042 %_data_trained : 0.0
+num_of_examples 81 loss: 0.16882140040397645 %_data_trained : 0.5423728813559322
+num_of_examples 161 loss: 0.1685152143239975 %_data_trained : 1.0847457627118644
+num_of_examples 241 loss: 0.18232013881206513 %_data_trained : 1.6271186440677965
+num_of_examples 321 loss: 0.1888854831457138 %_data_trained : 2.169491525423729
+num_of_examples 401 loss: 0.17260046303272247 %_data_trained : 2.711864406779661
+num_of_examples 481 loss: 0.21058844327926635 %_data_trained : 3.254237288135593
+num_of_examples 561 loss: 0.18038402795791625 %_data_trained : 3.7966101694915255
+num_of_examples 641 loss: 0.218544602394104 %_data_trained : 4.338983050847458
+num_of_examples 721 loss: 0.17727766335010528 %_data_trained : 4.88135593220339
+num_of_examples 801 loss: 0.1724577873945236 %_data_trained : 5.423728813559322
+num_of_examples 881 loss: 0.19257433712482452 %_data_trained : 5.966101694915254
+num_of_examples 961 loss: 0.18260037899017334 %_data_trained : 6.508474576271186
+num_of_examples 1041 loss: 0.18388471007347107 %_data_trained : 7.0508474576271185
+num_of_examples 1121 loss: 0.19719058871269227 %_data_trained : 7.593220338983051
+num_of_examples 1201 loss: 0.18532657623291016 %_data_trained : 8.135593220338983
+num_of_examples 1281 loss: 0.19707661271095275 %_data_trained : 8.677966101694915
+num_of_examples 1361 loss: 0.1792847365140915 %_data_trained : 9.220338983050848
+num_of_examples 1441 loss: 0.16981928646564484 %_data_trained : 9.76271186440678
+  num_of_examples 1 test_loss: 0.004755367040634156
+Test auc: 0.8906119465329991
+num_of_examples 1 loss: 0.03798999786376953 %_data_trained : 0.0
+num_of_examples 81 loss: 0.18364943861961364 %_data_trained : 0.5423728813559322
+num_of_examples 161 loss: 0.18951180279254914 %_data_trained : 1.0847457627118644
+num_of_examples 241 loss: 0.18090104460716247 %_data_trained : 1.6271186440677965
+num_of_examples 321 loss: 0.16062138974666595 %_data_trained : 2.169491525423729
+num_of_examples 401 loss: 0.19878876209259033 %_data_trained : 2.711864406779661
+num_of_examples 481 loss: 0.2132895529270172 %_data_trained : 3.254237288135593
+num_of_examples 561 loss: 0.20541657209396363 %_data_trained : 3.7966101694915255
+num_of_examples 641 loss: 0.1870158225297928 %_data_trained : 4.338983050847458
+num_of_examples 721 loss: 0.17049530148506165 %_data_trained : 4.88135593220339
+num_of_examples 801 loss: 0.17907502353191376 %_data_trained : 5.423728813559322
+num_of_examples 881 loss: 0.17184647619724275 %_data_trained : 5.966101694915254
+num_of_examples 961 loss: 0.19588831663131714 %_data_trained : 6.508474576271186
+num_of_examples 1041 loss: 0.16793640851974487 %_data_trained : 7.0508474576271185
+num_of_examples 1121 loss: 0.1693501204252243 %_data_trained : 7.593220338983051
+num_of_examples 1201 loss: 0.18880282044410707 %_data_trained : 8.135593220338983
+num_of_examples 1281 loss: 0.19161610901355744 %_data_trained : 8.677966101694915
+num_of_examples 1361 loss: 0.1850086361169815 %_data_trained : 9.220338983050848
+num_of_examples 1441 loss: 0.1900937557220459 %_data_trained : 9.76271186440678
+  num_of_examples 1 test_loss: 0.004651759266853333
+Test auc: 0.8913116123642439
+num_of_examples 1 loss: 0.03753604292869568 %_data_trained : 0.0
+num_of_examples 81 loss: 0.18199655711650847 %_data_trained : 0.5423728813559322
+num_of_examples 161 loss: 0.17458465695381165 %_data_trained : 1.0847457627118644
+num_of_examples 241 loss: 0.21252452135086058 %_data_trained : 1.6271186440677965
+num_of_examples 321 loss: 0.19651051759719848 %_data_trained : 2.169491525423729
+num_of_examples 401 loss: 0.15888366997241973 %_data_trained : 2.711864406779661
+num_of_examples 481 loss: 0.17537978887557984 %_data_trained : 3.254237288135593
+num_of_examples 561 loss: 0.17099039554595946 %_data_trained : 3.7966101694915255
+num_of_examples 641 loss: 0.19284803569316863 %_data_trained : 4.338983050847458
+num_of_examples 721 loss: 0.18199720084667206 %_data_trained : 4.88135593220339
+num_of_examples 801 loss: 0.19141793251037598 %_data_trained : 5.423728813559322
+num_of_examples 881 loss: 0.19235501885414125 %_data_trained : 5.966101694915254
+num_of_examples 961 loss: 0.18515138626098632 %_data_trained : 6.508474576271186
+num_of_examples 1041 loss: 0.1854721337556839 %_data_trained : 7.0508474576271185
+num_of_examples 1121 loss: 0.1910325914621353 %_data_trained : 7.593220338983051
+num_of_examples 1201 loss: 0.17421814203262329 %_data_trained : 8.135593220338983
+num_of_examples 1281 loss: 0.17719324827194213 %_data_trained : 8.677966101694915
+num_of_examples 1361 loss: 0.17999185919761657 %_data_trained : 9.220338983050848
+num_of_examples 1441 loss: 0.17799207270145417 %_data_trained : 9.76271186440678
+  num_of_examples 1 test_loss: 0.004846760034561157
+Test auc: 0.8897138680033416
+num_of_examples 1 loss: 0.03778485655784607 %_data_trained : 0.0
+num_of_examples 81 loss: 0.1914178639650345 %_data_trained : 0.5423728813559322
+num_of_examples 161 loss: 0.17171156406402588 %_data_trained : 1.0847457627118644
+num_of_examples 241 loss: 0.17336834371089935 %_data_trained : 1.6271186440677965
+num_of_examples 321 loss: 0.18472157418727875 %_data_trained : 2.169491525423729
+num_of_examples 401 loss: 0.1793011575937271 %_data_trained : 2.711864406779661
+num_of_examples 481 loss: 0.18454856276512147 %_data_trained : 3.254237288135593
+num_of_examples 561 loss: 0.18238740861415864 %_data_trained : 3.7966101694915255
+num_of_examples 641 loss: 0.19014897346496581 %_data_trained : 4.338983050847458
+num_of_examples 721 loss: 0.16097206771373748 %_data_trained : 4.88135593220339
+num_of_examples 801 loss: 0.19665338099002838 %_data_trained : 5.423728813559322
+num_of_examples 881 loss: 0.1898199200630188 %_data_trained : 5.966101694915254
+num_of_examples 961 loss: 0.1720721572637558 %_data_trained : 6.508474576271186
+num_of_examples 1041 loss: 0.1981436163187027 %_data_trained : 7.0508474576271185
+num_of_examples 1121 loss: 0.17144570350646973 %_data_trained : 7.593220338983051
+num_of_examples 1201 loss: 0.18706924319267274 %_data_trained : 8.135593220338983
+num_of_examples 1281 loss: 0.17724317610263823 %_data_trained : 8.677966101694915
+num_of_examples 1361 loss: 0.19402724206447602 %_data_trained : 9.220338983050848
+num_of_examples 1441 loss: 0.17160624265670776 %_data_trained : 9.76271186440678
+  num_of_examples 1 test_loss: 0.0047055834531784056
+Test auc: 0.8910087719298245
+num_of_examples 1 loss: 0.031732034683227536 %_data_trained : 0.0
+num_of_examples 81 loss: 0.16557069718837739 %_data_trained : 0.5423728813559322
+num_of_examples 161 loss: 0.17667825818061828 %_data_trained : 1.0847457627118644
+num_of_examples 241 loss: 0.18412575423717498 %_data_trained : 1.6271186440677965
+num_of_examples 321 loss: 0.2062818944454193 %_data_trained : 2.169491525423729
+num_of_examples 401 loss: 0.16486353874206544 %_data_trained : 2.711864406779661
+num_of_examples 481 loss: 0.17465926110744476 %_data_trained : 3.254237288135593
+num_of_examples 561 loss: 0.15910887122154235 %_data_trained : 3.7966101694915255
+num_of_examples 641 loss: 0.17231191098690032 %_data_trained : 4.338983050847458
+num_of_examples 721 loss: 0.18009236454963684 %_data_trained : 4.88135593220339
+num_of_examples 801 loss: 0.18586659133434297 %_data_trained : 5.423728813559322
+num_of_examples 881 loss: 0.1775557816028595 %_data_trained : 5.966101694915254
+num_of_examples 961 loss: 0.17857455611228942 %_data_trained : 6.508474576271186
+num_of_examples 1041 loss: 0.18921687006950377 %_data_trained : 7.0508474576271185
+num_of_examples 1121 loss: 0.1781556338071823 %_data_trained : 7.593220338983051
+num_of_examples 1201 loss: 0.20476562082767485 %_data_trained : 8.135593220338983
+num_of_examples 1281 loss: 0.18966989815235138 %_data_trained : 8.677966101694915
+num_of_examples 1361 loss: 0.1825505256652832 %_data_trained : 9.220338983050848
+num_of_examples 1441 loss: 0.17296222150325774 %_data_trained : 9.76271186440678
+  num_of_examples 1 test_loss: 0.0047600468993186954
+Test auc: 0.8912593984962405
+num_of_examples 1 loss: 0.03774901628494263 %_data_trained : 0.0
+num_of_examples 81 loss: 0.19574779272079468 %_data_trained : 0.5423728813559322
+num_of_examples 161 loss: 0.17470943331718444 %_data_trained : 1.0847457627118644
+num_of_examples 241 loss: 0.16498575806617738 %_data_trained : 1.6271186440677965
+num_of_examples 321 loss: 0.17798398435115814 %_data_trained : 2.169491525423729
+num_of_examples 401 loss: 0.18903202712535858 %_data_trained : 2.711864406779661
+num_of_examples 481 loss: 0.1776169002056122 %_data_trained : 3.254237288135593
+num_of_examples 561 loss: 0.18080269694328308 %_data_trained : 3.7966101694915255
+num_of_examples 641 loss: 0.16560743153095245 %_data_trained : 4.338983050847458
+num_of_examples 721 loss: 0.18740714192390442 %_data_trained : 4.88135593220339
+num_of_examples 801 loss: 0.17821887135505676 %_data_trained : 5.423728813559322
+num_of_examples 881 loss: 0.18983326256275176 %_data_trained : 5.966101694915254
+num_of_examples 961 loss: 0.18437594771385193 %_data_trained : 6.508474576271186
+num_of_examples 1041 loss: 0.19024971425533294 %_data_trained : 7.0508474576271185
+num_of_examples 1121 loss: 0.1655995786190033 %_data_trained : 7.593220338983051
+num_of_examples 1201 loss: 0.17130312323570251 %_data_trained : 8.135593220338983
+num_of_examples 1281 loss: 0.18131138980388642 %_data_trained : 8.677966101694915
+num_of_examples 1361 loss: 0.18368611633777618 %_data_trained : 9.220338983050848
+num_of_examples 1441 loss: 0.1864127278327942 %_data_trained : 9.76271186440678
+  num_of_examples 1 test_loss: 0.004605264067649841
+Test auc: 0.8922932330827068
+Confusion Matrix:
+ [[265  20]
+ [ 29  55]]
+num_of_examples 1 loss: 0.03784705400466919 %_data_trained : 0.0
+num_of_examples 81 loss: 0.16216371357440948 %_data_trained : 0.5423728813559322
+num_of_examples 161 loss: 0.1790554255247116 %_data_trained : 1.0847457627118644
+num_of_examples 241 loss: 0.18403991758823396 %_data_trained : 1.6271186440677965
+num_of_examples 321 loss: 0.17057811319828034 %_data_trained : 2.169491525423729
+num_of_examples 401 loss: 0.18971725404262543 %_data_trained : 2.711864406779661
+num_of_examples 481 loss: 0.1901996076107025 %_data_trained : 3.254237288135593
+num_of_examples 561 loss: 0.17871580123901368 %_data_trained : 3.7966101694915255
+num_of_examples 641 loss: 0.16382378935813904 %_data_trained : 4.338983050847458
+num_of_examples 721 loss: 0.20422830581665039 %_data_trained : 4.88135593220339
+num_of_examples 801 loss: 0.1664366215467453 %_data_trained : 5.423728813559322
+num_of_examples 881 loss: 0.18212323188781737 %_data_trained : 5.966101694915254
+num_of_examples 961 loss: 0.17710738778114318 %_data_trained : 6.508474576271186
+num_of_examples 1041 loss: 0.16696290969848632 %_data_trained : 7.0508474576271185
+num_of_examples 1121 loss: 0.19124125242233275 %_data_trained : 7.593220338983051
+num_of_examples 1201 loss: 0.19737956523895264 %_data_trained : 8.135593220338983
+num_of_examples 1281 loss: 0.1594738095998764 %_data_trained : 8.677966101694915
+num_of_examples 1361 loss: 0.16886996924877168 %_data_trained : 9.220338983050848
+num_of_examples 1441 loss: 0.1891774356365204 %_data_trained : 9.76271186440678
+  num_of_examples 1 test_loss: 0.004657914638519287
+Test auc: 0.8919799498746868
+num_of_examples 1 loss: 0.03792039155960083 %_data_trained : 0.0
+num_of_examples 81 loss: 0.16011928915977477 %_data_trained : 0.5423728813559322
+num_of_examples 161 loss: 0.18788760304450988 %_data_trained : 1.0847457627118644
+num_of_examples 241 loss: 0.19169198274612426 %_data_trained : 1.6271186440677965
+num_of_examples 321 loss: 0.1711614817380905 %_data_trained : 2.169491525423729
+num_of_examples 401 loss: 0.17037320733070374 %_data_trained : 2.711864406779661
+num_of_examples 481 loss: 0.16527916491031647 %_data_trained : 3.254237288135593
+num_of_examples 561 loss: 0.1948115587234497 %_data_trained : 3.7966101694915255
+num_of_examples 641 loss: 0.18282729685306548 %_data_trained : 4.338983050847458
+num_of_examples 721 loss: 0.1766594022512436 %_data_trained : 4.88135593220339
+num_of_examples 801 loss: 0.19505659639835357 %_data_trained : 5.423728813559322
+num_of_examples 881 loss: 0.1709774076938629 %_data_trained : 5.966101694915254
+num_of_examples 961 loss: 0.1862699270248413 %_data_trained : 6.508474576271186
+num_of_examples 1041 loss: 0.17085913121700286 %_data_trained : 7.0508474576271185
+num_of_examples 1121 loss: 0.18573881983757018 %_data_trained : 7.593220338983051
+num_of_examples 1201 loss: 0.16431756019592286 %_data_trained : 8.135593220338983
+num_of_examples 1281 loss: 0.18241626024246216 %_data_trained : 8.677966101694915
+num_of_examples 1361 loss: 0.1713487386703491 %_data_trained : 9.220338983050848
+num_of_examples 1441 loss: 0.18371096551418303 %_data_trained : 9.76271186440678
+  num_of_examples 1 test_loss: 0.004632962346076966
+Test auc: 0.8922096908939015
+num_of_examples 1 loss: 0.037944674491882324 %_data_trained : 0.0
+num_of_examples 81 loss: 0.17714686691761017 %_data_trained : 0.5423728813559322
+num_of_examples 161 loss: 0.16497437059879302 %_data_trained : 1.0847457627118644
+num_of_examples 241 loss: 0.1827256202697754 %_data_trained : 1.6271186440677965
+num_of_examples 321 loss: 0.18409186899662017 %_data_trained : 2.169491525423729
+num_of_examples 401 loss: 0.17093867361545562 %_data_trained : 2.711864406779661
+num_of_examples 481 loss: 0.18887561857700347 %_data_trained : 3.254237288135593
+num_of_examples 561 loss: 0.17770840525627135 %_data_trained : 3.7966101694915255
+num_of_examples 641 loss: 0.1759561628103256 %_data_trained : 4.338983050847458
+num_of_examples 721 loss: 0.1884661763906479 %_data_trained : 4.88135593220339
+num_of_examples 801 loss: 0.18878268897533418 %_data_trained : 5.423728813559322
+num_of_examples 881 loss: 0.17018305659294128 %_data_trained : 5.966101694915254
+num_of_examples 961 loss: 0.16418677270412446 %_data_trained : 6.508474576271186
+num_of_examples 1041 loss: 0.19038840234279633 %_data_trained : 7.0508474576271185
+num_of_examples 1121 loss: 0.18016908466815948 %_data_trained : 7.593220338983051
+num_of_examples 1201 loss: 0.17902711033821106 %_data_trained : 8.135593220338983
+num_of_examples 1281 loss: 0.17014433443546295 %_data_trained : 8.677966101694915
+num_of_examples 1361 loss: 0.17350803017616273 %_data_trained : 9.220338983050848
+num_of_examples 1441 loss: 0.17228612601757048 %_data_trained : 9.76271186440678
+  num_of_examples 1 test_loss: 0.004637574553489685
+Test auc: 0.8918024227234753
+num_of_examples 1 loss: 0.03146543502807617 %_data_trained : 0.0
+num_of_examples 81 loss: 0.15831578373908997 %_data_trained : 0.5423728813559322
+num_of_examples 161 loss: 0.1644923835992813 %_data_trained : 1.0847457627118644
+num_of_examples 241 loss: 0.18915501832962037 %_data_trained : 1.6271186440677965
+num_of_examples 321 loss: 0.16053929626941682 %_data_trained : 2.169491525423729
+num_of_examples 401 loss: 0.1889582484960556 %_data_trained : 2.711864406779661
+num_of_examples 481 loss: 0.19644628167152406 %_data_trained : 3.254237288135593
+num_of_examples 561 loss: 0.16686321496963502 %_data_trained : 3.7966101694915255
+num_of_examples 641 loss: 0.18971128165721893 %_data_trained : 4.338983050847458
+num_of_examples 721 loss: 0.1782291352748871 %_data_trained : 4.88135593220339
+num_of_examples 801 loss: 0.16379065811634064 %_data_trained : 5.423728813559322
+num_of_examples 881 loss: 0.17378293871879577 %_data_trained : 5.966101694915254
+num_of_examples 961 loss: 0.1958673655986786 %_data_trained : 6.508474576271186
+num_of_examples 1041 loss: 0.18884240090847015 %_data_trained : 7.0508474576271185
+num_of_examples 1121 loss: 0.1713967502117157 %_data_trained : 7.593220338983051
+num_of_examples 1201 loss: 0.15846424996852876 %_data_trained : 8.135593220338983
+num_of_examples 1281 loss: 0.1890861690044403 %_data_trained : 8.677966101694915
+num_of_examples 1361 loss: 0.17711547613143921 %_data_trained : 9.220338983050848
+num_of_examples 1441 loss: 0.17653287947177887 %_data_trained : 9.76271186440678
+  num_of_examples 1 test_loss: 0.004608091413974762
+Test auc: 0.8930868838763575
+Confusion Matrix:
+ [[262  23]
+ [ 28  56]]
+num_of_examples 1 loss: 0.03150544762611389 %_data_trained : 0.0
+num_of_examples 81 loss: 0.1887616753578186 %_data_trained : 0.5423728813559322
+num_of_examples 161 loss: 0.18010302484035492 %_data_trained : 1.0847457627118644
+num_of_examples 241 loss: 0.17064478993415833 %_data_trained : 1.6271186440677965
+num_of_examples 321 loss: 0.178646457195282 %_data_trained : 2.169491525423729
+num_of_examples 401 loss: 0.16476277112960816 %_data_trained : 2.711864406779661
+num_of_examples 481 loss: 0.16489583551883696 %_data_trained : 3.254237288135593
+num_of_examples 561 loss: 0.16962611377239228 %_data_trained : 3.7966101694915255
+num_of_examples 641 loss: 0.16736510992050171 %_data_trained : 4.338983050847458
+num_of_examples 721 loss: 0.18150511085987092 %_data_trained : 4.88135593220339
+num_of_examples 801 loss: 0.16443495750427245 %_data_trained : 5.423728813559322
+num_of_examples 881 loss: 0.170670810341835 %_data_trained : 5.966101694915254
+num_of_examples 961 loss: 0.18562203347682954 %_data_trained : 6.508474576271186
+num_of_examples 1041 loss: 0.1777532696723938 %_data_trained : 7.0508474576271185
+num_of_examples 1121 loss: 0.18860129415988922 %_data_trained : 7.593220338983051
+num_of_examples 1201 loss: 0.18775911033153533 %_data_trained : 8.135593220338983
+num_of_examples 1281 loss: 0.19035616517066956 %_data_trained : 8.677966101694915
+num_of_examples 1361 loss: 0.1803955227136612 %_data_trained : 9.220338983050848
+num_of_examples 1441 loss: 0.1707637369632721 %_data_trained : 9.76271186440678
+  num_of_examples 1 test_loss: 0.004588413238525391
+Test auc: 0.891280284043442
+num_of_examples 1 loss: 0.0379451185464859 %_data_trained : 0.0
+num_of_examples 81 loss: 0.17527992129325867 %_data_trained : 0.5423728813559322
+num_of_examples 161 loss: 0.17791459262371062 %_data_trained : 1.0847457627118644
+num_of_examples 241 loss: 0.17764851152896882 %_data_trained : 1.6271186440677965
+num_of_examples 321 loss: 0.182805797457695 %_data_trained : 2.169491525423729
+num_of_examples 401 loss: 0.1634376496076584 %_data_trained : 2.711864406779661
+num_of_examples 481 loss: 0.17051303684711455 %_data_trained : 3.254237288135593
+num_of_examples 561 loss: 0.19526264667510987 %_data_trained : 3.7966101694915255
+num_of_examples 641 loss: 0.16923720836639405 %_data_trained : 4.338983050847458
+num_of_examples 721 loss: 0.18909490406513213 %_data_trained : 4.88135593220339
+num_of_examples 801 loss: 0.1729864299297333 %_data_trained : 5.423728813559322
+num_of_examples 881 loss: 0.16608774065971374 %_data_trained : 5.966101694915254
+num_of_examples 961 loss: 0.1857977867126465 %_data_trained : 6.508474576271186
+num_of_examples 1041 loss: 0.17675818800926207 %_data_trained : 7.0508474576271185
+num_of_examples 1121 loss: 0.17021240293979645 %_data_trained : 7.593220338983051
+num_of_examples 1201 loss: 0.17630576193332673 %_data_trained : 8.135593220338983
+num_of_examples 1281 loss: 0.16364140808582306 %_data_trained : 8.677966101694915
+num_of_examples 1361 loss: 0.17636158168315888 %_data_trained : 9.220338983050848
+num_of_examples 1441 loss: 0.15862123668193817 %_data_trained : 9.76271186440678
+  num_of_examples 1 test_loss: 0.004509776830673218
+Test auc: 0.8924603174603174
+num_of_examples 1 loss: 0.031435650587081906 %_data_trained : 0.0
+num_of_examples 81 loss: 0.1956582635641098 %_data_trained : 0.5423728813559322
+num_of_examples 161 loss: 0.1762995421886444 %_data_trained : 1.0847457627118644
+num_of_examples 241 loss: 0.16393418610095978 %_data_trained : 1.6271186440677965
+num_of_examples 321 loss: 0.17080326080322267 %_data_trained : 2.169491525423729
+num_of_examples 401 loss: 0.17398940324783324 %_data_trained : 2.711864406779661
+num_of_examples 481 loss: 0.17632222771644593 %_data_trained : 3.254237288135593
+num_of_examples 561 loss: 0.1697671353816986 %_data_trained : 3.7966101694915255
+num_of_examples 641 loss: 0.16381380558013917 %_data_trained : 4.338983050847458
+num_of_examples 721 loss: 0.16468898057937623 %_data_trained : 4.88135593220339
+num_of_examples 801 loss: 0.1701475888490677 %_data_trained : 5.423728813559322
+num_of_examples 881 loss: 0.17689197063446044 %_data_trained : 5.966101694915254
+num_of_examples 961 loss: 0.17222504317760468 %_data_trained : 6.508474576271186
+num_of_examples 1041 loss: 0.17042815685272217 %_data_trained : 7.0508474576271185
+num_of_examples 1121 loss: 0.18315345346927642 %_data_trained : 7.593220338983051
+num_of_examples 1201 loss: 0.18885866403579712 %_data_trained : 8.135593220338983
+num_of_examples 1281 loss: 0.1790164589881897 %_data_trained : 8.677966101694915
+num_of_examples 1361 loss: 0.17644137740135193 %_data_trained : 9.220338983050848
+num_of_examples 1441 loss: 0.16978836953639984 %_data_trained : 9.76271186440678
+  num_of_examples 1 test_loss: 0.004452172219753265
+Test auc: 0.8909252297410192
+num_of_examples 1 loss: 0.03157201707363129 %_data_trained : 0.0
+num_of_examples 81 loss: 0.18305099308490752 %_data_trained : 0.5423728813559322
+num_of_examples 161 loss: 0.16475495994091033 %_data_trained : 1.0847457627118644
+num_of_examples 241 loss: 0.17782177031040192 %_data_trained : 1.6271186440677965
+num_of_examples 321 loss: 0.18274763226509094 %_data_trained : 2.169491525423729
+num_of_examples 401 loss: 0.17623628675937653 %_data_trained : 2.711864406779661
+num_of_examples 481 loss: 0.1751910537481308 %_data_trained : 3.254237288135593
+num_of_examples 561 loss: 0.1652260661125183 %_data_trained : 3.7966101694915255
+num_of_examples 641 loss: 0.16764752566814423 %_data_trained : 4.338983050847458
+num_of_examples 721 loss: 0.17755697071552276 %_data_trained : 4.88135593220339
+num_of_examples 801 loss: 0.18334269523620605 %_data_trained : 5.423728813559322
+num_of_examples 881 loss: 0.1723840892314911 %_data_trained : 5.966101694915254
+num_of_examples 961 loss: 0.17615480720996857 %_data_trained : 6.508474576271186
+num_of_examples 1041 loss: 0.18960817754268647 %_data_trained : 7.0508474576271185
+num_of_examples 1121 loss: 0.16391322910785674 %_data_trained : 7.593220338983051
+num_of_examples 1201 loss: 0.17679877877235411 %_data_trained : 8.135593220338983
+num_of_examples 1281 loss: 0.16525653898715972 %_data_trained : 8.677966101694915
+num_of_examples 1361 loss: 0.1705318421125412 %_data_trained : 9.220338983050848
+num_of_examples 1441 loss: 0.17103453278541564 %_data_trained : 9.76271186440678
+  num_of_examples 1 test_loss: 0.004487852454185486
+Test auc: 0.8866541353383459
