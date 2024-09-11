@@ -305,7 +305,7 @@ class DPOInstruct:
 
         return losst, rewardt, loss_epoch, reward_epoch
 
-def finetune(data_smi, checkpoint_fil, output_model, smiles_col, label_col, pos_label, neg_label, device=0):
+def finetune(data_smi, checkpoint_fil, output_model, smiles_col, label_col, pos_label, neg_label, numep, device=0):
     pos_smi = [sf.encoder(smi_it) for smi_it in data_smi[data_smi[label_col]==pos_label][smiles_col]]
     neg_smi = [sf.encoder(smi_it) for smi_it in data_smi[data_smi[label_col]==neg_label][smiles_col]]
     
@@ -322,7 +322,7 @@ def finetune(data_smi, checkpoint_fil, output_model, smiles_col, label_col, pos_
     except:
         pass
 
-    DPO_Instruct = DPOInstruct(policy, ref, tokenizer, 0, 16, 5, 5e-7, max_length, 0.5)
+    DPO_Instruct = DPOInstruct(policy, ref, tokenizer, 0, 16, numep, 5e-7, max_length, 0.5)
     losst, rewardt, loss_epoch, reward_epoch = DPO_Instruct.train(pos_smi, neg_smi, output_model)
     return loss_epoch, reward_epoch
 

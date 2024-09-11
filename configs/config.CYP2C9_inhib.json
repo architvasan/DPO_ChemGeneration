@@ -1,0 +1,16 @@
+{
+    "data": "/lus/gila/projects/candle_aesp_CNDA/avasan/RL_Workflows/RL_DPO/pref-opt-for-mols/MolFormer_Class/models_for_archit/data/CYP450/CYP2C9.csv",
+    "smiles_col": "SMILES",
+    "label_col": "Tox",
+    "pos_label": 0,
+    "neg_label": 1,
+    "scaffolds_sampling": "data/rtcb_scaffolds.smi",
+    "batch_sample": 16,
+    "out_dir": "out/",
+    "out_pattern": "CYP2C9",
+    "evaluator_type": "molformer_tox",
+    "evaluator_config":"/lus/gila/projects/candle_aesp_CNDA/avasan/RL_Workflows/RL_DPO/DPO_ChemGen/evaluator_models/MolFormer_Class/models_for_archit/yaml_files/CYP2C9.yaml",
+    "evaluator_checkpoint": "/lus/gila/projects/candle_aesp_CNDA/avasan/RL_Workflows/RL_DPO/DPO_ChemGen/evaluator_models/MolFormer_Class/models_for_archit/best_model_weights/CYP2C9_weights_7qw1rp7n.pt",
+    "loop_number": 5,
+    "goal_ratio": 0.8,
+    "device": 5 }

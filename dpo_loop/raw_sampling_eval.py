@@ -44,6 +44,7 @@ def raw_sampling(first_inp_data,
     print(device_use)
     os.environ["ZE_FLAT_DEVICE_HIERARCHY"]="FLAT"
     os.environ["ZE_AFFINITY_MASK"]=f'{device_use}'
+    print(device_use)
     
     device = 0
     data_smi = pd.read_csv(first_inp_data)

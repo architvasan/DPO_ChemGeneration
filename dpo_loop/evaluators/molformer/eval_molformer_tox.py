@@ -15,13 +15,13 @@ from pathlib import Path
 from torch import nn
 import intel_extension_for_pytorch as ipex
 from dpo_loop.evaluators.molformer.binary_nnmodel import NNModel
-from dpo_loop.evaluators.molformer.data_utils_tox import CustomDataset, RoundRobinBatchSampler
-
+from dpo_loop.evaluators.molformer.data_utils_tox import CustomDataset_inf, RoundRobinBatchSampler
+import yaml
 
 def evaluate(data, modelcheckpoint, yaml_file, good_index, device=0):
     LLModel = AutoModel.from_pretrained("ibm/MoLFormer-XL-both-10pct", deterministic_eval=True, trust_remote_code=True)
     tokenizer = AutoTokenizer.from_pretrained("ibm/MoLFormer-XL-both-10pct", trust_remote_code=True)
-    with open(args.yaml, 'r') as file:
+    with open(yaml_file, 'r') as file:
         config_dict = yaml.safe_load(file)
 
     device = torch.device(f"xpu:{device}")
@@ -31,7 +31,6 @@ def evaluate(data, modelcheckpoint, yaml_file, good_index, device=0):
     test_set = CustomDataset_inf(tokenizer, data, max_input_length=512, max_target_length=512)
     test_dataloader = torch.utils.data.DataLoader(test_set, batch_size=16, shuffle=False)
 
-    #nnmodel = NNModel(config={"input_size": 768, "embedding_size": 512, "hidden_size": 256, "output_size": 2, "n_layers": 5}).to("xpu")
     nnmodel = NNModel(config_dict).to("xpu")
 
     checkpoint = torch.load(modelcheckpoint, map_location=torch.device('cpu'))
@@ -54,12 +53,12 @@ def evaluate(data, modelcheckpoint, yaml_file, good_index, device=0):
             encoder = encoder.mean(dim=1)
             # pass encoder output to regression head
             nn_outputs = nnmodel(encoder)
-            nn_outputs = softmax_nnmodel(nn_outputs)
-            nn_outputs_vals_0 = nn_outputs.cpu().detach().numpy()[:,0]
-            nn_outputs_vals_1 = nn_outputs.cpu().detach().numpy()[:,1]
-            out_vals_0.extend(nn_outputs_vals_0)
-            out_vals_1.extend(nn_outputs_vals_1)
-            out_bin.extend(np.round(nn_outputs_vals_1))
+            print(nn_outputs)
+
+            nn_outputs_vals_0 = torch.flatten(nn_outputs).cpu().detach().numpy()#[:,0]
+            out_vals_0.extend(1 - nn_outputs_vals_0)
+            out_vals_1.extend(nn_outputs_vals_0)
+            out_bin.extend(np.round(nn_outputs_vals_0))
             smiles_out.extend(batch["smiles"])#.cpu().detach().numpy())
             print(out_bin)
     return smiles_out, out_vals_0, out_vals_1, out_bin

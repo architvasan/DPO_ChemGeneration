@@ -34,6 +34,7 @@ def dpo_loop_main(first_inp_data,
                     out_dir,
                     out_pattern,
                     evaluator_checkpoint,
+                    finetune_eps,
                     loop_number,
                     goal_ratio,
                     evaluator_type='molformer',
@@ -49,9 +50,28 @@ def dpo_loop_main(first_inp_data,
     os.environ["ZE_FLAT_DEVICE_HIERARCHY"]="FLAT"
     os.environ["ZE_AFFINITY_MASK"]=f'{device_use}'
     
+    try:
+        os.mkdir(f'{out_dir}/{out_pattern}')
+    except:
+        pass
     device = 0
     data_smi = pd.read_csv(first_inp_data)
     loop_records = {'losses':[], 'rewards':[]}
+    if True:
+        try:
+            os.mkdir(f'{out_dir}/{out_pattern}_nodpo')
+        except:
+            pass
+        sampled_smiles = dpo_loop.sample.sample(f'placeholder', scaffolds_sampling, smiles_col, f'{out_dir}/{out_pattern}_nodpo', batch_sample, device)
+
+        if evaluator_type == 'molformer':
+            smiles_out, out_vals_0, out_vals_1, out_bin = eval_molformer.evaluate(sampled_smiles, evaluator_checkpoint, pos_label, device)
+        elif evaluator_type == 'molformer_tox':
+            smiles_out, out_vals_0, out_vals_1, out_bin = eval_molformer_tox.evaluate(sampled_smiles, evaluator_checkpoint, evaluator_config, pos_label, device)
+
+        smiles_df = pd.DataFrame({smiles_col: smiles_out, label_col: out_bin, "prob0": out_vals_0, "prob1": out_vals_1})
+        smiles_df.to_csv(f'{out_dir}/{out_pattern}.nodpo.csv', index=False)
+
     losses, rewards = dpo_loop.finetune.finetune(data_smi,
                                                     "null",
                                                     f'{out_dir}/{out_pattern}.0.pt',
@@ -59,6 +79,7 @@ def dpo_loop_main(first_inp_data,
                                                     label_col,
                                                     pos_label,
                                                     neg_label,
+                                                    finetune_eps,
                                                     device_use) 
     
     
@@ -78,11 +99,12 @@ def dpo_loop_main(first_inp_data,
     """
     sampled_ratios = []
     for loopit in tqdm(range(loop_number)):
-        sampled_smiles = dpo_loop.sample.sample(f'{out_dir}/{out_pattern}.{loopit}.pt', scaffolds_sampling, smiles_col, batch_sample, device)
+        print(f'{out_dir}/{out_pattern}')
+        sampled_smiles = dpo_loop.sample.sample(f'{out_dir}/{out_pattern}.{loopit}.pt', scaffolds_sampling, smiles_col, f'{out_dir}/{out_pattern}', batch_sample, device)
         if evaluator_type == 'molformer':
             smiles_out, out_vals_0, out_vals_1, out_bin = eval_molformer.evaluate(sampled_smiles, evaluator_checkpoint, pos_label, device)
         elif evaluator_type == 'molformer_tox':
-            smiles_out, out_vals_0, out_vals_1, out_bin = eval_molformer.evaluate(sampled_smiles, evaluator_checkpoint, pos_label, device)
+            smiles_out, out_vals_0, out_vals_1, out_bin = eval_molformer_tox.evaluate(sampled_smiles, evaluator_checkpoint, evaluator_config, pos_label, device)
 
         smiles_df = pd.DataFrame({smiles_col: smiles_out, label_col: out_bin, "prob0": out_vals_0, "prob1": out_vals_1})
         pos = len(smiles_df[smiles_df[label_col]==pos_label])
@@ -111,6 +133,7 @@ def dpo_loop_main(first_inp_data,
                                                             label_col,
                                                             pos_label,
                                                             neg_label,
+                                                            finetune_eps,
                                                             device)
         loop_records['losses'].extend(losses_it)
         loop_records['rewards'].extend(rewards_it)

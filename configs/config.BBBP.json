@@ -9,6 +9,7 @@
     "out_dir": "out/",
     "out_pattern": "BBBP",
     "evaluator_checkpoint": "/lus/gila/projects/candle_aesp_CNDA/avasan/RL_Workflows/RL_DPO/pref-opt-for-mols/MolFormer_Class/BBBP/model_weights.pt",
+    "finetune_eps": 1,
     "loop_number": 5,
     "goal_ratio": 0.8,
     "device": 0}

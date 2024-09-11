@@ -21,6 +21,16 @@ args = parser.parse_args()
 
 config = ParamsJson(args.config)
 
+try:
+    evaluator_type = config["evaluator_type"]
+except:
+    evaluator_type = 'molformer'
+
+try:
+    evaluator_config = config["evaluator_config"]
+except:
+    evaluator_config = 'none'
+
 dpo_loop_main(config["data"], 
               config["smiles_col"],
               config["label_col"],
@@ -31,7 +41,10 @@ dpo_loop_main(config["data"],
               config["out_dir"],
               config["out_pattern"],
               config["evaluator_checkpoint"],
+              config["finetune_eps"],
               config["loop_number"],
               config["goal_ratio"],
+              evaluator_type,
+              evaluator_config,
               config["device"])
 
